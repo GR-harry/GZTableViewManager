@@ -9,13 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "GZPickerItem.h"
 
+@class GZTableViewItem;
 @interface NSString (GZTableViewItem)
 
 @property (readonly) GZTableViewItem *tableViewItem;
 
 @end
 
-@protocol GZPickerItemRow;
 @interface NSString (GZPickerItem)<GZPickerItemRow>
 
 @end

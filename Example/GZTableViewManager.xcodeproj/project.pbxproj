@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2F270AEB6F86C481AE125AB1 /* Pods-GZTableViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZTableViewManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GZTableViewManager_Tests/Pods-GZTableViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		405D7F58EFF4A72DAC6E2B06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		405D7F58EFF4A72DAC6E2B06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51FFA4E9A86C3F21A5301A98 /* Pods-GZTableViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZTableViewManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GZTableViewManager_Tests/Pods-GZTableViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GZTableViewManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZTableViewManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BEA64B66F3EA2639315D020 /* Pods-GZTableViewManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZTableViewManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GZTableViewManager_Example/Pods-GZTableViewManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9124B9C9623A9CFA55C120B /* GZTableViewManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GZTableViewManager.podspec; path = ../GZTableViewManager.podspec; sourceTree = "<group>"; };
+		A9124B9C9623A9CFA55C120B /* GZTableViewManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GZTableViewManager.podspec; path = ../GZTableViewManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE619EB0F38A70640B6C7F8F /* Pods-GZTableViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZTableViewManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GZTableViewManager_Example/Pods-GZTableViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C34C38F88D75974DA6CDE30C /* Pods_GZTableViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GZTableViewManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4FB5D5BAADDE9CC57CD8F05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D4FB5D5BAADDE9CC57CD8F05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

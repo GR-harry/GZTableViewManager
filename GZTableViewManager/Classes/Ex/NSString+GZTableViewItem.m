@@ -8,6 +8,7 @@
 
 #import "NSString+GZTableViewItem.h"
 #import "GZTableViewItem.h"
+#import "GZPickerItem.h"
 
 @implementation NSString (GZTableViewItem)
 

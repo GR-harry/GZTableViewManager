@@ -9,9 +9,41 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@protocol GZTableViewManagerDelegate;
+#import "GZTableViewSection.h"
 
-@class GZTableViewSection;
+#import "GZTableViewItem.h"
+#import "GZTableViewCell.h"
+
+#import "GZTextItem.h"
+#import "GZTableViewTextCell.h"
+
+#import "GZBoolItem.h"
+#import "GZTableViewBoolCell.h"
+
+#import "GZFloatItem.h"
+#import "GZTableViewFloatCell.h"
+
+#import "GZNumberItem.h"
+#import "GZTableViewNumberCell.h"
+
+#import "GZLongTextItem.h"
+#import "GZTableViewLongTextCell.h"
+
+#import "GZPickerItem.h"
+#import "GZTableViewPickerCell.h"
+
+#import "GZInlinePickerItem.h"
+#import "GZTableViewInlinePickerCell.h"
+
+#import "GZDatePickerItem.h"
+#import "GZTableViewDatePickerCell.h"
+
+#import "GZInlineDatePickerItem.h"
+#import "GZTableViewInlineDatePickerCell.h"
+
+#import "NSString+GZTableViewItem.h"
+
+@protocol GZTableViewManagerDelegate;
 
 @interface GZTableViewManager : NSObject
 

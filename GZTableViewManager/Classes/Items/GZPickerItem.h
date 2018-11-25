@@ -7,7 +7,6 @@
 //
 
 #import "GZTableViewItem.h"
-#import "NSString+GZTableViewItem.h"
 
 @protocol GZPickerItemRow <NSObject>
 

@@ -10,37 +10,6 @@
 
 #import <objc/runtime.h>
 
-#import "GZTableViewSection.h"
-#import "GZTableViewItem.h"
-#import "GZTableViewCell.h"
-
-#import "GZTextItem.h"
-#import "GZTableViewTextCell.h"
-
-#import "GZBoolItem.h"
-#import "GZTableviewBoolCell.h"
-
-#import "GZFloatItem.h"
-#import "GZTableViewFloatCell.h"
-
-#import "GZNumberItem.h"
-#import "GZTableViewNumberCell.h"
-
-#import "GZLongTextItem.h"
-#import "GZTableViewLongTextCell.h"
-
-#import "GZPickerItem.h"
-#import "GZTableViewPickerCell.h"
-
-#import "GZInlinePickerItem.h"
-#import "GZTableViewInlinePickerCell.h"
-
-#import "GZDatePickerItem.h"
-#import "GZTableViewDatePickerCell.h"
-
-#import "GZInlineDatePickerItem.h"
-#import "GZTableViewInlineDatePickerCell.h"
-
 @interface GZTableViewManager ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) id<GZTableViewManagerDelegate> delegate;

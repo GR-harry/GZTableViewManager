@@ -7,6 +7,7 @@
 //
 
 #import "GZPickerItem.h"
+#import "NSString+GZTableViewItem.h"
 
 @interface GZPickerItem ()
 
