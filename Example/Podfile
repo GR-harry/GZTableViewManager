@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GZTableViewManager_Example' do
+  pod 'GZTableViewManager', :path => '../'
+
+  target 'GZTableViewManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
