@@ -1,0 +1,16 @@
+PODS:
+  - GZTableViewManager (0.1.0)
+
+DEPENDENCIES:
+  - GZTableViewManager (from `../`)
+
+EXTERNAL SOURCES:
+  GZTableViewManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GZTableViewManager: 2be763f8f9f406788992cfc5d07572bf1769311c
+
+PODFILE CHECKSUM: b712b2638326298b691b9787532ad90e4001750b
+
+COCOAPODS: 1.5.3

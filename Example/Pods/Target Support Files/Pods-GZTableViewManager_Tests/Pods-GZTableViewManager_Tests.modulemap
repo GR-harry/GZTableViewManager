@@ -1,0 +1,6 @@
+framework module Pods_GZTableViewManager_Tests {
+  umbrella header "Pods-GZTableViewManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "GZTableViewManager",
+  "version": "0.1.0",
+  "summary": "A short description of GZTableViewManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/GuoRui/GZTableViewManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "GuoRui": "guorui@huami.com"
+  },
+  "source": {
+    "git": "https://github.com/GuoRui/GZTableViewManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GZTableViewManager/Classes/**/*"
+}

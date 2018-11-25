@@ -1,0 +1,6 @@
+framework module GZTableViewManager {
+  umbrella header "GZTableViewManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
