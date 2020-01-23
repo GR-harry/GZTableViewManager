@@ -1,9 +1,9 @@
 {
   "name": "GZTableViewManager",
   "version": "0.1.0",
-  "summary": "A short description of GZTableViewManager.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/GuoRui/GZTableViewManager",
+  "summary": "GZTableViewManager.",
+  "description": "GZTableViewManager 是用于tableView管理的数据类",
+  "homepage": "https://gitee.com/grxm/GZTableViewManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "GuoRui": "guorui@huami.com"
   },
   "source": {
-    "git": "https://github.com/GuoRui/GZTableViewManager.git",
+    "git": "git@gitee.com:grxm/GZTableViewManager.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -7,500 +7,505 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E49C6F82B138F66BA2D8798B83AF12 /* NSString+GZNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4B041AB8C2B321D84B3AA20982CCA7 /* NSString+GZNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BC15200DF411536EBB333F932333291 /* GZDatePickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 775AD4D0122C2DFEFFDE903E1706EB0F /* GZDatePickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10C4001EF11559974DDF36A064281D8D /* Pods-GZTableViewManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D11C42F1902CE68CC09846B2F703F1 /* Pods-GZTableViewManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CCEFBDBB7DAA2E72B68CE7516E9F2D7 /* GZNumberItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE29786110140CAFDE37DE3F75CC1A3 /* GZNumberItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22FAA77CFCAD45764B1BB2972988C5E7 /* NSString+GZTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A557160B9B2040F793A84344C953DAF6 /* NSString+GZTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25E3CC9A67234C9A3E79FA4C2E375E4A /* GZPickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 081E8C5DD285A216ED2E6817735C2411 /* GZPickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27C2885EC0DBD936476383FB24820A62 /* GZTableViewInlineDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9846CB683204AD65C425E81C77243A1 /* GZTableViewInlineDatePickerCell.m */; };
-		2970104C321B856650DAE54D9E4914E5 /* GZNumberFormatTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8DC7F019FCFA7E259449C9A67A7105 /* GZNumberFormatTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AFB52D7DEDD66320944D9E7159EBB6A /* GZInlineDatePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E5052CFE3784AD25617A209AE1CBFAEC /* GZInlineDatePickerItem.m */; };
-		2D67443D7672699FB21CA05DA8D5981B /* GZTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E72F9616A7539E5FFA919710143975C /* GZTableViewItem.m */; };
-		31EB35A45D3209E381CA4CDF6F4D3EE8 /* GZTableViewFloatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A0915717E547CF92B9DC4BA20DD473 /* GZTableViewFloatCell.m */; };
-		32B512358CBDA5EEB28CC5FC16B97980 /* GZTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC1E57AE4B1D8E8FF8238A63CB00DA /* GZTextItem.m */; };
-		3783221C26D89A3AC7C15141C14F9BF7 /* GZTableViewInlineDatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 565A4C18516EE9B038CCC9B0E0AC6BB4 /* GZTableViewInlineDatePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B21966A23FE7F78473A2105500E2817 /* GZTableViewPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFF3331C8719F4AB8AC67647404F58 /* GZTableViewPickerCell.m */; };
-		3E499CA3D303839E5166FC2022271E84 /* GZTableViewInlinePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 876D6DB614EF0CB9820AB345A51FD55F /* GZTableViewInlinePickerCell.m */; };
-		440E391423E46BBBD53F767FAD5CB566 /* GZFloatItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DD0DB6CFBBC0E54FDF20A337BEEC3487 /* GZFloatItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CDCB3C9DB5C1673093FC324266E42F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		525A323A3B134F0F5D3D9366D2BEFDA4 /* GZTableViewTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CB84EF8A6DC22C044E62ABCDE0F8C5 /* GZTableViewTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		532F08009B1DFB823043E67166AAA16D /* GZLongTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D36A0454F1DA4B0B177E03A49E1D7D3E /* GZLongTextItem.m */; };
-		5D50F5E489FD7DE3C9D15E41B4339F5A /* GZTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AF81936680AF8FF1CC71CA494B37223D /* GZTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D9255C8DE51FE27152A35333DC5B6A0 /* NSString+GZNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFDDD8C222FC084F9A7AA6F36AA2671 /* NSString+GZNumberFormat.m */; };
-		654C5EABE9F91897F43F830164A5ECA4 /* GZTableViewInlinePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DAD137F5E17900AC6A1A931057FAC2 /* GZTableViewInlinePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67D75C9E01E69B0E4C9F54469C062ECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		69D447163C5EFBE0FC42A4564A3E6C8D /* GZTableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FDDA040DB3CD4205616E35015E50AA13 /* GZTableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C853E377E5037E12E8E239E7F8B10DC /* NSString+GZTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B071771F8EF2DD6956AF9F4061E6B36 /* NSString+GZTableViewItem.m */; };
-		719E941B2E8556C48090214286FF2087 /* GZTableViewDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8719C899355826957E74D21EAA63B3F /* GZTableViewDatePickerCell.m */; };
-		723A1B5D9E80E7AD0C13CF2190C04920 /* GZBoolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D14359A15845588F489C341AE58EFC8C /* GZBoolItem.m */; };
-		7397BD671BD74FB0B736A71438C6AC07 /* Pods-GZTableViewManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FAB0A63DF68BD270B13FCA48FD2D715 /* Pods-GZTableViewManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		748311ACEEE01E4D2C0903823508521A /* GZPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB998373460E5292CA4070A5759E01BF /* GZPlaceholderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		785FB67C549DAEC0C19F60B5AB16AB58 /* GZTableViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E3CD64C77967DD804333A81F388498 /* GZTableViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		798CC82B2571D32866E6CD9583679916 /* GZTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A53198CA125045D950FADC5BA91982 /* GZTableViewManager.m */; };
-		7EA27D790F163481FE3EA55F8D4BE280 /* GZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441094106C392CCB514FECC41961EEC /* GZTableViewCell.m */; };
-		83B55B293F677D5066BBE05B82E926A3 /* GZInlineDatePickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3F434CC4E6DCDA9E14355AA7ADB1B6 /* GZInlineDatePickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89D355BD316CA9E47499F95CD082D4AD /* GZDatePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C82654C1A0A7B74A944F7055719E3C83 /* GZDatePickerItem.m */; };
-		8AE33E19DDBD280CB619700DF43156C7 /* GZTableViewLongTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52868E09AE8267E82CA35EC269C6F71C /* GZTableViewLongTextCell.m */; };
-		8C94CFE46A3FA2109FE292F7D6CE5D24 /* GZInlinePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C840A3409AE958ADCB9511E525DD70 /* GZInlinePickerItem.m */; };
-		8FDA53F9C8AE0A5E081A09598A38F1C1 /* GZNumberItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C564CC8BBC0B8AD5ACAF6D2A769CB55 /* GZNumberItem.m */; };
-		9862DA1964713F36273BDF3FEEBB7B22 /* Pods-GZTableViewManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7A59A8A65C9DC915F44DCDFE58DBDE /* Pods-GZTableViewManager_Example-dummy.m */; };
-		9C888AC63F52E0F252A4E84A7770513F /* GZTableViewPickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADB2D5E49BB5277A49C29B36B063C41 /* GZTableViewPickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F44E0EBE961401074453CB1F29B2924 /* GZInlinePickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5A80EFD0ADB819B288C5C80D98CDD6 /* GZInlinePickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2EB89B9952C2DFF0F1754F17C17D86E /* GZTableViewBoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EA3A2C09DCE028D3E2868FC9D0D24B /* GZTableViewBoolCell.m */; };
-		A37453438094D432743D90206D118AFF /* Pods-GZTableViewManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC00132FFA58E8C298A402449B0837B /* Pods-GZTableViewManager_Tests-dummy.m */; };
-		B083364937228C94776F0D68E476B1F9 /* GZNumberFormatTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9150C876CD7F07775305EEE2C75057E8 /* GZNumberFormatTextField.m */; };
-		B1B54F1A49D018DFA30A96E74F0A60EC /* GZTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFFFFEA70E1742FBB13B25C9102C8 /* GZTableViewManager-dummy.m */; };
-		BBD31E2C6C47495C8FBC38ACDB4871ED /* GZTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = C783B5B016FD55A959CCB0D8BAC823C5 /* GZTableViewSection.m */; };
-		C15A09BEE214A18A52E11C49FD534964 /* GZTableViewNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 580617239163262A943DCF0003DD1A66 /* GZTableViewNumberCell.m */; };
-		C37CC809CDD5C00D69E5C7494F59D798 /* GZTableViewNumberCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 210BC8E3679204D0668CFFDA41C50879 /* GZTableViewNumberCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3EB2875EC590B39370848F4A5F5B561 /* GZPickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D5EEF33604F2DD688A274A8C4865DB /* GZPickerItem.m */; };
-		C459E0D7EE6CF4431D83E2CB062675D1 /* Plan.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D9A4294A4E0B5113603E7C98A26C05 /* Plan.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7C4355C8FA3DA5EBA3BB1BE51A973E7 /* GZTableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2C35D7C888AB59B96E4459ACC6D903 /* GZTableViewSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8EF86113286CB274A79BA72DD13CF1B /* GZPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4C1D1BB14D08805D4DE8A0C90131C2 /* GZPlaceholderTextView.m */; };
-		D2230763795AE55D4D6091D2A6619E53 /* GZTableViewFloatCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1664CCDE3BF7D3557192C943830E0F4C /* GZTableViewFloatCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D26B08E2B8D7921E8B20074CE8F77C18 /* GZTableViewTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 820BE090C9D96168775E1DD11F5DD309 /* GZTableViewTextCell.m */; };
-		D84C50E35EBF5A24D9CFD79259B9854D /* GZTableViewBoolCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE7460AC741C3A1C00C8B6910691D /* GZTableViewBoolCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE3F066E580AC101E36C6371EC22C2B9 /* GZFloatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CD5D8465ED0FA47BCB3F930EE329E6 /* GZFloatItem.m */; };
-		E14C276540CA78ACC800F3638C31695B /* GZTableViewLongTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B7601DC547B954F4411F4E53BAD4A7BC /* GZTableViewLongTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E36BEA08CAEDC1130E892325C6D0FA11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		EFD8273EB0859C9C4D8A41D3E54E1266 /* GZTableViewDatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DFC0588E1C353B5920D935621213AE /* GZTableViewDatePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1FDC66BAB5F5986F7B210FB5D1A787B /* GZTextItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 066931080181D99419A715F1335A431C /* GZTextItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4C494CB748AFDA83F635AEFE88BEB40 /* GZTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8382771C5C2EB14DCB0C034BB67048AC /* GZTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7C489097E748C263D1367E8AFF78703 /* GZBoolItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 602B7017E38656C749C8EDC9181B4CB7 /* GZBoolItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEA200FDEBBB433F83E7500F67573AF9 /* GZLongTextItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1856AB9DDA6559137C99BA4B19655342 /* GZLongTextItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D4C71E2D2D0ECFBDE60A8752A9823B /* GZTableViewBoolCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CFF8ABE446B2F5FD8ABD37D9C37EF0B /* GZTableViewBoolCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01F473E824ACFE7CD768596DCC82C90F /* GZTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E5243149EC6A6DCB44D20AFCE11B771C /* GZTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		049F068A0E4821B8032AB948F0EAEFB5 /* GZBoolItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B757F4BA3C8F402EF3E6F4578A722E0 /* GZBoolItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05C6D3DB36DCCA594B0A24E6456D650F /* GZNumberItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC965FEDB58AEE8319CFEDE64020A32 /* GZNumberItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07BE5F4B5B3639E2D9A23B99F9B11BEB /* GZNumberFormatTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 624476029EA05BEE5037082762240D59 /* GZNumberFormatTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1797F9811692FC2A6A88CEADD0D69360 /* NSString+GZNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A769A4017243DDA4F1C0DE7D765E77 /* NSString+GZNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21DF9D422FD562FE38CE585CE7072870 /* GZNumberItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA8266F844AB2E80A0907D2AB2FB9F2 /* GZNumberItem.m */; };
+		24940A0E7B6934E1CA2B3E7AAF596197 /* GZFloatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6F0040975588904E220420CCC5157E /* GZFloatItem.m */; };
+		25DB6423ACB5D1EF7F1EE74C21B7677A /* GZTableViewDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEFB7F983123A133BF07988FFF69D71 /* GZTableViewDatePickerCell.m */; };
+		26F28D4D9E0CF1F31476D62942FEC891 /* Pods-GZTableViewManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 575F1C7648015BFDEB3448FA00608006 /* Pods-GZTableViewManager_Example-dummy.m */; };
+		341FC9C2971902E9ECA5A1828178ED86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		34F8E614B95135F957964AD9392C7E7A /* GZTableViewInlinePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CCFA13F8FA76A68073B7DB0C6E249634 /* GZTableViewInlinePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39790ADE3242293FF849CED60399C600 /* GZTableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E901B05834FEC702A050160C03BB6C45 /* GZTableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AA6228530F019B67E2AAC7A8549A035 /* GZMultipleChoiceItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F48990BEDA8AD738FA13B4B6C3E327F /* GZMultipleChoiceItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B8F26F8B9D464C1E09C9FB77A9B624B /* GZNumberFormatTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D013A70784271472C8CD63C6881BDD65 /* GZNumberFormatTextField.m */; };
+		45D03FEE1D978404C6FD8DBE3E3D7029 /* GZTableViewNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD10BAD86695706B0599ED669FBE65F /* GZTableViewNumberCell.m */; };
+		45D58CF1E59B9152ACF0B49BA0DA0675 /* GZTableViewInlinePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F825D5B21EC4349E7AC3B6921CA98 /* GZTableViewInlinePickerCell.m */; };
+		47215BDB39626A7ACA8063FE7F754538 /* GZInlineDatePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C9B4E509C960B554BD92BF5C86984F /* GZInlineDatePickerItem.m */; };
+		49716CB501FDD9F432711FE11D63B549 /* GZTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 687373A85B391F7A4CEEF4DD0A74C7BA /* GZTableViewItem.m */; };
+		4A2A67345A373379E5D3249A51484293 /* GZTableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B21D80491E864C3A9CB7A1F437606FE /* GZTableViewSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A4A178DF266BE44114FB2715F2DA332 /* NSString+GZNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDD2EE782FC792EC0B8336E24B440A3 /* NSString+GZNumberFormat.m */; };
+		4FB8C1B6F7DBC01E5FDE0357A9CC5092 /* GZTableViewOptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886E7730338D7FEA88736359131E86E /* GZTableViewOptionsController.m */; };
+		5218F280529FA91F0F8853FB0B352766 /* Plan.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A117B9EC24F11ED450B9B69A0D9BEC2 /* Plan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		528BB561A62134E7DFCE754199FB20C6 /* GZInlinePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B861D2C683CE1A31426CAC401D3D985A /* GZInlinePickerItem.m */; };
+		52CEEAE67B43B5FCA4B1E796179BEBF2 /* GZTableViewFloatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 839DF81785A56B80B550B28FF92011A8 /* GZTableViewFloatCell.m */; };
+		55C660F2DC6169F16F6ADD9C23784997 /* GZTableViewLongTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD34AD91F8EA284072402E9615A933A /* GZTableViewLongTextCell.m */; };
+		5D7C2B6D949DE1572D2722A39CA3FF9D /* GZTableViewOptionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD0C5C292FE12460FFD43BC996673D7 /* GZTableViewOptionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61C5B9F9657F5B72DAB412A98A0C710C /* GZDatePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAECFE86DFEC1422EC9C11A600574EC /* GZDatePickerItem.m */; };
+		63F4E8083732685629E64015805BBD35 /* GZTableViewPickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D4542B2CAB6E95F8F1187DE3D85FBB /* GZTableViewPickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F84481A9FE93D3F85AD31BDD1FE6F9 /* GZTableViewLongTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E03F2B87B5922FC46CE6CFE18325619A /* GZTableViewLongTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D61CDF0E50073A96BF88CEDE5B48813 /* GZTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE66A35F6FAD0C91FC481333036D48B /* GZTableViewSection.m */; };
+		7106761E0BAFD5F496E8A0E2C0CA0EDF /* GZInlineDatePickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0003EA00CBAC61433EAA0D70DE4931 /* GZInlineDatePickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		712CCD9717A5578B4DFA5EBB4E0F406F /* GZTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 02DCBC664A1CD1B70EB57A3380603C8D /* GZTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75968469FDC2297BF5C5D3FB48DD4FE4 /* GZRadioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8750DA3426543F8566F711B4FB83714C /* GZRadioItem.m */; };
+		7599AE3DA40064483B8F36CD2FE76E4E /* GZTableViewDatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E74741E5F303CEA79C6E6978E86FB1 /* GZTableViewDatePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		764BD934A561D82979DA796AEEC82CF4 /* GZPickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2002F3BAC4A7742CDFDC9E340396C5D5 /* GZPickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		784E2F2719F22D5054758F8911FA489A /* GZTableViewOptionsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7AF6FBF17400312262BEA00238165 /* GZTableViewOptionsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA10BD558FED620CEDC2B7676C0C3F4 /* GZDatePickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A21443B8CA1AF0D96C59050498769A56 /* GZDatePickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FDA12EC87D8E3DE94E36B6D0F586AEF /* GZBoolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 918E81F417E2C67E5568EF8C481FEEF3 /* GZBoolItem.m */; };
+		8252FF6B39FEEDF5A64E882388B1A8D1 /* GZRadioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 761A559F1A9C1672AB8FFB877C0FED2B /* GZRadioItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8330590CE6827DDBDD2FE4D4DBA1834D /* GZInlinePickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B48D173CC74C33AE5560BD7F675AD97C /* GZInlinePickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		836D389AC1E60CDBAB4E77C23854896D /* GZTableViewInlineDatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C2B7698000DE4B1BCB05BCDC5ACFF2 /* GZTableViewInlineDatePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877AA62B7A5983F45927FD020B18378B /* GZTextItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F76ADE39801A744D669EBAF6ACABC0 /* GZTextItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877FCCAD3547F0270FC5A9F5E2161781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8B3F8B7FF7CD7E7E20C4BB486C441B35 /* GZTableViewTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F011DA16DE99331A142B85D2FD9E1E82 /* GZTableViewTextCell.m */; };
+		8F182183AD9263C31711F34A5FDB31B2 /* GZLongTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 483224BFFEED6E314FDC0C2A5892F0A4 /* GZLongTextItem.m */; };
+		95C9E989295D461CD2F81E4EB06C608C /* GZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 747080D3E671748201D04BA77BCD81A5 /* GZTableViewCell.m */; };
+		962C9CD742B663AED39BF5B43570F9C3 /* GZTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE27B1AC51E674E1CE5FCB630D033D /* GZTableViewManager-dummy.m */; };
+		9C659431C2BF7E651ADB56D4FD7A139C /* NSString+GZTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 43324D4514DCFB2D6877747064281C22 /* NSString+GZTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A58D5C644FB2408314A503F07D6E96D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AD037471C35ED7BDFFCE151C9437AF3A /* GZTableViewFloatCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9023DECA589F9A54D0CEFC13B2A12642 /* GZTableViewFloatCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B127D04C6181708DADEB89EA53731289 /* GZTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5991943E8328D1B458206F4073F9D7 /* GZTableViewManager.m */; };
+		B41045AEE2661889F67A956F0E140BD6 /* GZTableViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B8393C98A9FF277F37539601CFC687 /* GZTableViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D2F7C4C0FB55F68E6349CFBA777E76 /* Pods-GZTableViewManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51DF6E776F66D9A7395CF923A8994F44 /* Pods-GZTableViewManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6C965C7736F14008EAF1487DBE88015 /* GZTableViewBoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAA871CBD07D1AF8D9A470A11EFE097 /* GZTableViewBoolCell.m */; };
+		B6D5E90A1345D2D7E0ABFA075753CB6E /* Pods-GZTableViewManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6A2A73951BE6130B9C6DB3E8CFB6C0 /* Pods-GZTableViewManager_Tests-dummy.m */; };
+		B7B367B0525DFAE9689311D5ECCE6198 /* GZPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C8184B8F90D17C0311787C432E3AD3 /* GZPlaceholderTextView.m */; };
+		B91A9F869ACAA5A0898E0278DAEAD638 /* GZTableViewNumberCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFD2997007F1BB277A402308AF0EBD1 /* GZTableViewNumberCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC69104F4BD1FF4F47BE49A8621515B6 /* GZPickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D312A4AB97B93071BD9D6AD9FEA1110 /* GZPickerItem.m */; };
+		C25543E9C58675201B88EF3A4E2400F6 /* Pods-GZTableViewManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6529D7A8D38C8CB8B5D678721BA9A496 /* Pods-GZTableViewManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8546D3AFBD502A7ECB63DB61869206E /* NSString+GZTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468302E6D2F5E10C4B0C15394186251 /* NSString+GZTableViewItem.m */; };
+		C9903C33BF2D4352752C0761D9438F19 /* GZTableViewTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA7C4EC0FCEBD7051E44E9F0A30C062 /* GZTableViewTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0509E5BE002307FDB584F7BE3E5241C /* GZPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FB81A1F52920941CE4971FBB353B7E /* GZPlaceholderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C2BDFC3E742F57029C7EBDC179F39F /* GZTableViewPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EB06B709BA04464162111693797B75 /* GZTableViewPickerCell.m */; };
+		D5CDC490C6B20EDFC6B6A0D4F12AB441 /* GZFloatItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A76B0E426E4148B5D33889C4B9CF0C00 /* GZFloatItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D941296D399795C94DB6B6A34FD48D6F /* GZTableViewInlineDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 900420D2A2EE7F615290B476086E0BA2 /* GZTableViewInlineDatePickerCell.m */; };
+		E5FCF5D1F0FAB8448BF17A176B9E0F55 /* GZTableViewOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FACC69AE65D3682D54794C79D0F634 /* GZTableViewOptionCell.m */; };
+		E9D5E5B46817158562C31514029FD5BA /* GZTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E492B33DDF66FD81556C9327889101E /* GZTextItem.m */; };
+		FE6F9640D021E3E74A65122F744EC574 /* GZLongTextItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 35ED1BFFA7CFF27F56E97F7693A61F57 /* GZLongTextItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3ECC2606B4BAC56D7BAC66690A4F11 /* GZMultipleChoiceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D41250C132F4684890008BC38A6718B7 /* GZMultipleChoiceItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A2F6B6F719C21E82E44AB15611D49BEE /* PBXContainerItemProxy */ = {
+		A0FD4A52F26EF14A937AC101FF99BF6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 60A2138DC3EC611D8FDBDFFA490F86D6;
+			remoteGlobalIDString = 51B222A8465180BA231B5185E939E077;
 			remoteInfo = GZTableViewManager;
 		};
-		F95FF2B95DCA6D67238FC4C689F7F7EE /* PBXContainerItemProxy */ = {
+		E762D94BE7E591469E6B77B23ECAAD18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0208C81F60AF88CD4C4687EE92C894CB;
+			remoteGlobalIDString = 54D49BE110DC13A03466A8E968786AD5;
 			remoteInfo = "Pods-GZTableViewManager_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C9753E3FF8F6795CE75C37C54D6BB4 /* GZTableViewManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GZTableViewManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		00CB84EF8A6DC22C044E62ABCDE0F8C5 /* GZTableViewTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewTextCell.h; sourceTree = "<group>"; };
-		066931080181D99419A715F1335A431C /* GZTextItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTextItem.h; sourceTree = "<group>"; };
-		067EE656CD7C119006FDFABEC19D3683 /* Pods_GZTableViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GZTableViewManager_Tests.framework; path = "Pods-GZTableViewManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07A1F6BEDB89FCD21B7EA3DBBBE7DB1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		081E8C5DD285A216ED2E6817735C2411 /* GZPickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZPickerItem.h; sourceTree = "<group>"; };
-		0AC83403696457CD6D66AF90EF983688 /* GZTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GZTableViewManager.xcconfig; sourceTree = "<group>"; };
-		0B7A59A8A65C9DC915F44DCDFE58DBDE /* Pods-GZTableViewManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GZTableViewManager_Example-dummy.m"; sourceTree = "<group>"; };
-		0C3F434CC4E6DCDA9E14355AA7ADB1B6 /* GZInlineDatePickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZInlineDatePickerItem.h; sourceTree = "<group>"; };
-		0D2C35D7C888AB59B96E4459ACC6D903 /* GZTableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZTableViewSection.h; path = GZTableViewManager/Classes/GZTableViewSection.h; sourceTree = "<group>"; };
-		0FB8C676BCD9354545B319282215682B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		101A3F4B5626D741A7E032EF3F7851FA /* Pods-GZTableViewManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GZTableViewManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		12BFF3331C8719F4AB8AC67647404F58 /* GZTableViewPickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewPickerCell.m; sourceTree = "<group>"; };
-		1664CCDE3BF7D3557192C943830E0F4C /* GZTableViewFloatCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewFloatCell.h; sourceTree = "<group>"; };
-		1856AB9DDA6559137C99BA4B19655342 /* GZLongTextItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZLongTextItem.h; sourceTree = "<group>"; };
-		1ADB2D5E49BB5277A49C29B36B063C41 /* GZTableViewPickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewPickerCell.h; sourceTree = "<group>"; };
-		210BC8E3679204D0668CFFDA41C50879 /* GZTableViewNumberCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewNumberCell.h; sourceTree = "<group>"; };
-		2220B11F908258F4782FCDDEDF4F3384 /* Pods-GZTableViewManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GZTableViewManager_Tests.modulemap"; sourceTree = "<group>"; };
-		2BB967C10111C79384B12E53EF060058 /* Pods-GZTableViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZTableViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C564CC8BBC0B8AD5ACAF6D2A769CB55 /* GZNumberItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZNumberItem.m; sourceTree = "<group>"; };
-		2FAB0A63DF68BD270B13FCA48FD2D715 /* Pods-GZTableViewManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GZTableViewManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		2FC00132FFA58E8C298A402449B0837B /* Pods-GZTableViewManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GZTableViewManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		32A0915717E547CF92B9DC4BA20DD473 /* GZTableViewFloatCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewFloatCell.m; sourceTree = "<group>"; };
-		33DFC0588E1C353B5920D935621213AE /* GZTableViewDatePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewDatePickerCell.h; sourceTree = "<group>"; };
-		3441094106C392CCB514FECC41961EEC /* GZTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZTableViewCell.m; path = GZTableViewManager/Classes/GZTableViewCell.m; sourceTree = "<group>"; };
-		35D5898402EE06B5B0AB69F06EB2904D /* Pods-GZTableViewManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GZTableViewManager_Example.modulemap"; sourceTree = "<group>"; };
-		3736413AADCE70C0439A864A5AE3785F /* Pods-GZTableViewManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GZTableViewManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C9CA251F631DF2B6AF750F73CC33E17 /* Pods-GZTableViewManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GZTableViewManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4FCC1E57AE4B1D8E8FF8238A63CB00DA /* GZTextItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTextItem.m; sourceTree = "<group>"; };
-		524D93865A6DD0B830C339CB57A9CE90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52868E09AE8267E82CA35EC269C6F71C /* GZTableViewLongTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewLongTextCell.m; sourceTree = "<group>"; };
-		53FC9976594B5B70914C44CFFF9D8090 /* Pods-GZTableViewManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZTableViewManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		54C08A60BB5FA725BADDBCE423BCD2A1 /* Pods-GZTableViewManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GZTableViewManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		54D9A4294A4E0B5113603E7C98A26C05 /* Plan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Plan.h; path = GZTableViewManager/Classes/Plan.h; sourceTree = "<group>"; };
-		565A4C18516EE9B038CCC9B0E0AC6BB4 /* GZTableViewInlineDatePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewInlineDatePickerCell.h; sourceTree = "<group>"; };
-		580617239163262A943DCF0003DD1A66 /* GZTableViewNumberCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewNumberCell.m; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5B071771F8EF2DD6956AF9F4061E6B36 /* NSString+GZTableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GZTableViewItem.m"; sourceTree = "<group>"; };
-		5CFDDD8C222FC084F9A7AA6F36AA2671 /* NSString+GZNumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GZNumberFormat.m"; sourceTree = "<group>"; };
-		602B7017E38656C749C8EDC9181B4CB7 /* GZBoolItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZBoolItem.h; sourceTree = "<group>"; };
-		60EA3A2C09DCE028D3E2868FC9D0D24B /* GZTableViewBoolCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewBoolCell.m; sourceTree = "<group>"; };
-		61D11C42F1902CE68CC09846B2F703F1 /* Pods-GZTableViewManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GZTableViewManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		699F4FD83511A213DC68206DA9F4E57F /* Pods-GZTableViewManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GZTableViewManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		6F7306D4F2DAD5092337E97D935CF2C8 /* GZTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZTableViewManager-prefix.pch"; sourceTree = "<group>"; };
-		73DAD137F5E17900AC6A1A931057FAC2 /* GZTableViewInlinePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewInlinePickerCell.h; sourceTree = "<group>"; };
-		775AD4D0122C2DFEFFDE903E1706EB0F /* GZDatePickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZDatePickerItem.h; sourceTree = "<group>"; };
-		7C4B041AB8C2B321D84B3AA20982CCA7 /* NSString+GZNumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GZNumberFormat.h"; sourceTree = "<group>"; };
-		81D5EEF33604F2DD688A274A8C4865DB /* GZPickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZPickerItem.m; sourceTree = "<group>"; };
-		820BE090C9D96168775E1DD11F5DD309 /* GZTableViewTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewTextCell.m; sourceTree = "<group>"; };
-		8382771C5C2EB14DCB0C034BB67048AC /* GZTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZTableViewCell.h; path = GZTableViewManager/Classes/GZTableViewCell.h; sourceTree = "<group>"; };
-		85C7B362C84A9CEB2BAA6C8708F637EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		876D6DB614EF0CB9820AB345A51FD55F /* GZTableViewInlinePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewInlinePickerCell.m; sourceTree = "<group>"; };
-		9150C876CD7F07775305EEE2C75057E8 /* GZNumberFormatTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZNumberFormatTextField.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C13AA5A758F0A2D329032351FCE7455 /* Pods-GZTableViewManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GZTableViewManager_Example-resources.sh"; sourceTree = "<group>"; };
-		9E72F9616A7539E5FFA919710143975C /* GZTableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZTableViewItem.m; path = GZTableViewManager/Classes/GZTableViewItem.m; sourceTree = "<group>"; };
-		A0E3CD64C77967DD804333A81F388498 /* GZTableViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZTableViewManager-umbrella.h"; sourceTree = "<group>"; };
-		A34CFFFFEA70E1742FBB13B25C9102C8 /* GZTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GZTableViewManager-dummy.m"; sourceTree = "<group>"; };
-		A3CBCDD921AD56BA87D79D96E1AA7166 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A557160B9B2040F793A84344C953DAF6 /* NSString+GZTableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GZTableViewItem.h"; sourceTree = "<group>"; };
-		A5A53198CA125045D950FADC5BA91982 /* GZTableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZTableViewManager.m; path = GZTableViewManager/Classes/GZTableViewManager.m; sourceTree = "<group>"; };
-		A5AFE7460AC741C3A1C00C8B6910691D /* GZTableViewBoolCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewBoolCell.h; sourceTree = "<group>"; };
-		A9846CB683204AD65C425E81C77243A1 /* GZTableViewInlineDatePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewInlineDatePickerCell.m; sourceTree = "<group>"; };
-		AA4C1D1BB14D08805D4DE8A0C90131C2 /* GZPlaceholderTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZPlaceholderTextView.m; sourceTree = "<group>"; };
-		AAE29786110140CAFDE37DE3F75CC1A3 /* GZNumberItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZNumberItem.h; sourceTree = "<group>"; };
-		AB998373460E5292CA4070A5759E01BF /* GZPlaceholderTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZPlaceholderTextView.h; sourceTree = "<group>"; };
-		AC8DC7F019FCFA7E259449C9A67A7105 /* GZNumberFormatTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZNumberFormatTextField.h; sourceTree = "<group>"; };
-		ACA458828876626FBA4D20D5D90C7414 /* Pods-GZTableViewManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZTableViewManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AF81936680AF8FF1CC71CA494B37223D /* GZTableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZTableViewItem.h; path = GZTableViewManager/Classes/GZTableViewItem.h; sourceTree = "<group>"; };
-		B62AEDB8D23685836FF01338AB6318AF /* GZTableViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GZTableViewManager.modulemap; sourceTree = "<group>"; };
-		B7601DC547B954F4411F4E53BAD4A7BC /* GZTableViewLongTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewLongTextCell.h; sourceTree = "<group>"; };
-		B8719C899355826957E74D21EAA63B3F /* GZTableViewDatePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewDatePickerCell.m; sourceTree = "<group>"; };
-		B8B35B0ABC9C3861BA1441F16CFF41B9 /* GZTableViewManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GZTableViewManager.framework; path = GZTableViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEDDCC08D9CF273F111A56FBD48F7CBC /* Pods-GZTableViewManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZTableViewManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C783B5B016FD55A959CCB0D8BAC823C5 /* GZTableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZTableViewSection.m; path = GZTableViewManager/Classes/GZTableViewSection.m; sourceTree = "<group>"; };
-		C82654C1A0A7B74A944F7055719E3C83 /* GZDatePickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZDatePickerItem.m; sourceTree = "<group>"; };
-		D14359A15845588F489C341AE58EFC8C /* GZBoolItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZBoolItem.m; sourceTree = "<group>"; };
-		D36A0454F1DA4B0B177E03A49E1D7D3E /* GZLongTextItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZLongTextItem.m; sourceTree = "<group>"; };
-		D5CD5D8465ED0FA47BCB3F930EE329E6 /* GZFloatItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZFloatItem.m; sourceTree = "<group>"; };
-		DA5A80EFD0ADB819B288C5C80D98CDD6 /* GZInlinePickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZInlinePickerItem.h; sourceTree = "<group>"; };
-		DAD60AD898D3D76F80451AEB78BD6F89 /* Pods_GZTableViewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GZTableViewManager_Example.framework; path = "Pods-GZTableViewManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD0DB6CFBBC0E54FDF20A337BEEC3487 /* GZFloatItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZFloatItem.h; sourceTree = "<group>"; };
-		DD1234AE4066F00B27B7A2910AA0760F /* Pods-GZTableViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZTableViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E1CCE5F958B319F9A8E222716CE602AF /* Pods-GZTableViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZTableViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E5052CFE3784AD25617A209AE1CBFAEC /* GZInlineDatePickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZInlineDatePickerItem.m; sourceTree = "<group>"; };
-		E8C840A3409AE958ADCB9511E525DD70 /* GZInlinePickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZInlinePickerItem.m; sourceTree = "<group>"; };
-		FDDA040DB3CD4205616E35015E50AA13 /* GZTableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZTableViewManager.h; path = GZTableViewManager/Classes/GZTableViewManager.h; sourceTree = "<group>"; };
+		021963E91C14007DCC871E6BBEF57FB7 /* GZTableViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GZTableViewManager.modulemap; sourceTree = "<group>"; };
+		02DCBC664A1CD1B70EB57A3380603C8D /* GZTableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZTableViewItem.h; path = GZTableViewManager/Classes/GZTableViewItem.h; sourceTree = "<group>"; };
+		0BA7C4EC0FCEBD7051E44E9F0A30C062 /* GZTableViewTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewTextCell.h; sourceTree = "<group>"; };
+		0FEFB7F983123A133BF07988FFF69D71 /* GZTableViewDatePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewDatePickerCell.m; sourceTree = "<group>"; };
+		120B64538ED43D1A5D3BD1F296E07524 /* GZTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZTableViewManager-prefix.pch"; sourceTree = "<group>"; };
+		154F825D5B21EC4349E7AC3B6921CA98 /* GZTableViewInlinePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewInlinePickerCell.m; sourceTree = "<group>"; };
+		1886E7730338D7FEA88736359131E86E /* GZTableViewOptionsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewOptionsController.m; sourceTree = "<group>"; };
+		18E513DF98DE629012347D41B4146B36 /* Pods-GZTableViewManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZTableViewManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		18FACC69AE65D3682D54794C79D0F634 /* GZTableViewOptionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewOptionCell.m; sourceTree = "<group>"; };
+		1DDD2EE782FC792EC0B8336E24B440A3 /* NSString+GZNumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GZNumberFormat.m"; sourceTree = "<group>"; };
+		2002F3BAC4A7742CDFDC9E340396C5D5 /* GZPickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZPickerItem.h; sourceTree = "<group>"; };
+		27E74741E5F303CEA79C6E6978E86FB1 /* GZTableViewDatePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewDatePickerCell.h; sourceTree = "<group>"; };
+		2AD34AD91F8EA284072402E9615A933A /* GZTableViewLongTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewLongTextCell.m; sourceTree = "<group>"; };
+		30F7AF6FBF17400312262BEA00238165 /* GZTableViewOptionsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewOptionsController.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32528CFBC664CDE9539FC1A3BB7EF7F7 /* Pods-GZTableViewManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GZTableViewManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3468302E6D2F5E10C4B0C15394186251 /* NSString+GZTableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GZTableViewItem.m"; sourceTree = "<group>"; };
+		35ED1BFFA7CFF27F56E97F7693A61F57 /* GZLongTextItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZLongTextItem.h; sourceTree = "<group>"; };
+		383B096ACC789896D70B3CF27BF1BE06 /* GZTableViewManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GZTableViewManager.framework; path = GZTableViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		385C168FA21A25216D78492F901EDEF9 /* Pods-GZTableViewManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GZTableViewManager_Tests.modulemap"; sourceTree = "<group>"; };
+		39EB06B709BA04464162111693797B75 /* GZTableViewPickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewPickerCell.m; sourceTree = "<group>"; };
+		3B21D80491E864C3A9CB7A1F437606FE /* GZTableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZTableViewSection.h; path = GZTableViewManager/Classes/GZTableViewSection.h; sourceTree = "<group>"; };
+		3CCE27B1AC51E674E1CE5FCB630D033D /* GZTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GZTableViewManager-dummy.m"; sourceTree = "<group>"; };
+		3CDCA80125F697A8A5992ECF25F34D77 /* GZTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GZTableViewManager.xcconfig; sourceTree = "<group>"; };
+		3CFF8ABE446B2F5FD8ABD37D9C37EF0B /* GZTableViewBoolCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewBoolCell.h; sourceTree = "<group>"; };
+		3E492B33DDF66FD81556C9327889101E /* GZTextItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTextItem.m; sourceTree = "<group>"; };
+		43324D4514DCFB2D6877747064281C22 /* NSString+GZTableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GZTableViewItem.h"; sourceTree = "<group>"; };
+		46D1C01B81271E027C3A9C17794935E3 /* Pods-GZTableViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZTableViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		47A769A4017243DDA4F1C0DE7D765E77 /* NSString+GZNumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GZNumberFormat.h"; sourceTree = "<group>"; };
+		483224BFFEED6E314FDC0C2A5892F0A4 /* GZLongTextItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZLongTextItem.m; sourceTree = "<group>"; };
+		48F06E6CDCFD13D2B83D01861928C0F5 /* Pods-GZTableViewManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GZTableViewManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4ADD1AB3FD3259DCA7012726FE0F9D23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4D312A4AB97B93071BD9D6AD9FEA1110 /* GZPickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZPickerItem.m; sourceTree = "<group>"; };
+		51DF6E776F66D9A7395CF923A8994F44 /* Pods-GZTableViewManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GZTableViewManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		575F1C7648015BFDEB3448FA00608006 /* Pods-GZTableViewManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GZTableViewManager_Example-dummy.m"; sourceTree = "<group>"; };
+		5DAA871CBD07D1AF8D9A470A11EFE097 /* GZTableViewBoolCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewBoolCell.m; sourceTree = "<group>"; };
+		5F48990BEDA8AD738FA13B4B6C3E327F /* GZMultipleChoiceItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZMultipleChoiceItem.h; sourceTree = "<group>"; };
+		624476029EA05BEE5037082762240D59 /* GZNumberFormatTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZNumberFormatTextField.h; sourceTree = "<group>"; };
+		64B8393C98A9FF277F37539601CFC687 /* GZTableViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZTableViewManager-umbrella.h"; sourceTree = "<group>"; };
+		6529D7A8D38C8CB8B5D678721BA9A496 /* Pods-GZTableViewManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GZTableViewManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		687373A85B391F7A4CEEF4DD0A74C7BA /* GZTableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZTableViewItem.m; path = GZTableViewManager/Classes/GZTableViewItem.m; sourceTree = "<group>"; };
+		6A117B9EC24F11ED450B9B69A0D9BEC2 /* Plan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Plan.h; path = GZTableViewManager/Classes/Plan.h; sourceTree = "<group>"; };
+		6C6D4645ACF80654FD872BD9244D2F27 /* Pods-GZTableViewManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GZTableViewManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71C8184B8F90D17C0311787C432E3AD3 /* GZPlaceholderTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZPlaceholderTextView.m; sourceTree = "<group>"; };
+		747080D3E671748201D04BA77BCD81A5 /* GZTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZTableViewCell.m; path = GZTableViewManager/Classes/GZTableViewCell.m; sourceTree = "<group>"; };
+		761A559F1A9C1672AB8FFB877C0FED2B /* GZRadioItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZRadioItem.h; sourceTree = "<group>"; };
+		7AD0C5C292FE12460FFD43BC996673D7 /* GZTableViewOptionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewOptionCell.h; sourceTree = "<group>"; };
+		7AD10BAD86695706B0599ED669FBE65F /* GZTableViewNumberCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewNumberCell.m; sourceTree = "<group>"; };
+		7B6F3ACAB687CF43CD2CEB0263484796 /* Pods_GZTableViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GZTableViewManager_Tests.framework; path = "Pods-GZTableViewManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81100A002EE1851C01FC21E49FB56592 /* GZTableViewManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GZTableViewManager-Info.plist"; sourceTree = "<group>"; };
+		839DF81785A56B80B550B28FF92011A8 /* GZTableViewFloatCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewFloatCell.m; sourceTree = "<group>"; };
+		86C9B4E509C960B554BD92BF5C86984F /* GZInlineDatePickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZInlineDatePickerItem.m; sourceTree = "<group>"; };
+		8750DA3426543F8566F711B4FB83714C /* GZRadioItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZRadioItem.m; sourceTree = "<group>"; };
+		8B757F4BA3C8F402EF3E6F4578A722E0 /* GZBoolItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZBoolItem.h; sourceTree = "<group>"; };
+		900420D2A2EE7F615290B476086E0BA2 /* GZTableViewInlineDatePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewInlineDatePickerCell.m; sourceTree = "<group>"; };
+		9023DECA589F9A54D0CEFC13B2A12642 /* GZTableViewFloatCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewFloatCell.h; sourceTree = "<group>"; };
+		918E81F417E2C67E5568EF8C481FEEF3 /* GZBoolItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZBoolItem.m; sourceTree = "<group>"; };
+		98F76ADE39801A744D669EBAF6ACABC0 /* GZTextItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTextItem.h; sourceTree = "<group>"; };
+		99D71ADA65FAC0A11CCCAD84320847A0 /* Pods_GZTableViewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GZTableViewManager_Example.framework; path = "Pods-GZTableViewManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAECFE86DFEC1422EC9C11A600574EC /* GZDatePickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZDatePickerItem.m; sourceTree = "<group>"; };
+		9ABFFF3963B3B386759A86BC2B51DFA2 /* Pods-GZTableViewManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZTableViewManager_Example-Info.plist"; sourceTree = "<group>"; };
+		9C04125D1FCCD0DEE55022492A5E30E4 /* Pods-GZTableViewManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GZTableViewManager_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD921A73B6C21F534A92D255158883A /* Pods-GZTableViewManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZTableViewManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A21443B8CA1AF0D96C59050498769A56 /* GZDatePickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZDatePickerItem.h; sourceTree = "<group>"; };
+		A76B0E426E4148B5D33889C4B9CF0C00 /* GZFloatItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZFloatItem.h; sourceTree = "<group>"; };
+		ACD6C882C20B08EB752FD015C8AFACEB /* Pods-GZTableViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZTableViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AD6A2A73951BE6130B9C6DB3E8CFB6C0 /* Pods-GZTableViewManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GZTableViewManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		B48D173CC74C33AE5560BD7F675AD97C /* GZInlinePickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZInlinePickerItem.h; sourceTree = "<group>"; };
+		B861D2C683CE1A31426CAC401D3D985A /* GZInlinePickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZInlinePickerItem.m; sourceTree = "<group>"; };
+		BDE66A35F6FAD0C91FC481333036D48B /* GZTableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZTableViewSection.m; path = GZTableViewManager/Classes/GZTableViewSection.m; sourceTree = "<group>"; };
+		BDFD2997007F1BB277A402308AF0EBD1 /* GZTableViewNumberCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewNumberCell.h; sourceTree = "<group>"; };
+		BF5991943E8328D1B458206F4073F9D7 /* GZTableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZTableViewManager.m; path = GZTableViewManager/Classes/GZTableViewManager.m; sourceTree = "<group>"; };
+		C229E5816B5FC7609DAB1FFEE0D2C3D1 /* Pods-GZTableViewManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZTableViewManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C8ADAE877C185FCA87BD4C1C0C04A90C /* Pods-GZTableViewManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZTableViewManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCFA13F8FA76A68073B7DB0C6E249634 /* GZTableViewInlinePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewInlinePickerCell.h; sourceTree = "<group>"; };
+		CFF6378D1BDE1B84CAEF1D0CB9431BB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D013A70784271472C8CD63C6881BDD65 /* GZNumberFormatTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZNumberFormatTextField.m; sourceTree = "<group>"; };
+		D3D4542B2CAB6E95F8F1187DE3D85FBB /* GZTableViewPickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewPickerCell.h; sourceTree = "<group>"; };
+		D41250C132F4684890008BC38A6718B7 /* GZMultipleChoiceItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZMultipleChoiceItem.m; sourceTree = "<group>"; };
+		D9FB81A1F52920941CE4971FBB353B7E /* GZPlaceholderTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZPlaceholderTextView.h; sourceTree = "<group>"; };
+		DE0003EA00CBAC61433EAA0D70DE4931 /* GZInlineDatePickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZInlineDatePickerItem.h; sourceTree = "<group>"; };
+		E03F2B87B5922FC46CE6CFE18325619A /* GZTableViewLongTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewLongTextCell.h; sourceTree = "<group>"; };
+		E2C2B7698000DE4B1BCB05BCDC5ACFF2 /* GZTableViewInlineDatePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZTableViewInlineDatePickerCell.h; sourceTree = "<group>"; };
+		E5243149EC6A6DCB44D20AFCE11B771C /* GZTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZTableViewCell.h; path = GZTableViewManager/Classes/GZTableViewCell.h; sourceTree = "<group>"; };
+		E901B05834FEC702A050160C03BB6C45 /* GZTableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZTableViewManager.h; path = GZTableViewManager/Classes/GZTableViewManager.h; sourceTree = "<group>"; };
+		EDA8266F844AB2E80A0907D2AB2FB9F2 /* GZNumberItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZNumberItem.m; sourceTree = "<group>"; };
+		F011DA16DE99331A142B85D2FD9E1E82 /* GZTableViewTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZTableViewTextCell.m; sourceTree = "<group>"; };
+		F4BE6C7065B194EA12F52F2589EE8323 /* GZTableViewManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GZTableViewManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F7EA90589CB47DDC4CD97DE62BC0A18C /* Pods-GZTableViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZTableViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6F0040975588904E220420CCC5157E /* GZFloatItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZFloatItem.m; sourceTree = "<group>"; };
+		FDC965FEDB58AEE8319CFEDE64020A32 /* GZNumberItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZNumberItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CF78CA9FC1B22BB597C5A01E54DDB6F /* Frameworks */ = {
+		12E6D3D6D0C77A2FC279AA1E25CAF9AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36BEA08CAEDC1130E892325C6D0FA11 /* Foundation.framework in Frameworks */,
+				341FC9C2971902E9ECA5A1828178ED86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E5B5EAD3480D2D573FBB931AD36389C /* Frameworks */ = {
+		27F136EBF35AFA204E6A74891C28C417 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDCB3C9DB5C1673093FC324266E42F9 /* Foundation.framework in Frameworks */,
+				A58D5C644FB2408314A503F07D6E96D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB3227DC6638E58546C51C211C4AE132 /* Frameworks */ = {
+		A4041FF8F100D427CA42A13C4B3785A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D75C9E01E69B0E4C9F54469C062ECA /* Foundation.framework in Frameworks */,
+				877FCCAD3547F0270FC5A9F5E2161781 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07FDEF991BF10A0A3FE21CC05338C5CF /* Pod */ = {
+		18CB09080F17E634EE45B0EA97E49AE9 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				00C9753E3FF8F6795CE75C37C54D6BB4 /* GZTableViewManager.podspec */,
-				85C7B362C84A9CEB2BAA6C8708F637EC /* LICENSE */,
-				0FB8C676BCD9354545B319282215682B /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1861AA5F993C9FDC5120C8310233D2FD /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				AC8DC7F019FCFA7E259449C9A67A7105 /* GZNumberFormatTextField.h */,
-				9150C876CD7F07775305EEE2C75057E8 /* GZNumberFormatTextField.m */,
-				AB998373460E5292CA4070A5759E01BF /* GZPlaceholderTextView.h */,
-				AA4C1D1BB14D08805D4DE8A0C90131C2 /* GZPlaceholderTextView.m */,
-			);
-			name = Views;
-			path = GZTableViewManager/Classes/Views;
-			sourceTree = "<group>";
-		};
-		4806D7F61DADBD10B8638E3AF5BF1658 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B8B35B0ABC9C3861BA1441F16CFF41B9 /* GZTableViewManager.framework */,
-				DAD60AD898D3D76F80451AEB78BD6F89 /* Pods_GZTableViewManager_Example.framework */,
-				067EE656CD7C119006FDFABEC19D3683 /* Pods_GZTableViewManager_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		48CE673F77B43494A2DD758543A0549E /* GZTableViewManager */ = {
-			isa = PBXGroup;
-			children = (
-				8382771C5C2EB14DCB0C034BB67048AC /* GZTableViewCell.h */,
-				3441094106C392CCB514FECC41961EEC /* GZTableViewCell.m */,
-				AF81936680AF8FF1CC71CA494B37223D /* GZTableViewItem.h */,
-				9E72F9616A7539E5FFA919710143975C /* GZTableViewItem.m */,
-				FDDA040DB3CD4205616E35015E50AA13 /* GZTableViewManager.h */,
-				A5A53198CA125045D950FADC5BA91982 /* GZTableViewManager.m */,
-				0D2C35D7C888AB59B96E4459ACC6D903 /* GZTableViewSection.h */,
-				C783B5B016FD55A959CCB0D8BAC823C5 /* GZTableViewSection.m */,
-				54D9A4294A4E0B5113603E7C98A26C05 /* Plan.h */,
-				D95D0AB4BDE92612D3A002D97A359BEA /* Cells */,
-				A6CCAE19B33F94B2615D23B0664A9FF8 /* Ex */,
-				BF3A6CAA75F6F084260520058842B515 /* Items */,
-				07FDEF991BF10A0A3FE21CC05338C5CF /* Pod */,
-				E2D4425FD70B187871B567D9EE71F4FC /* Support Files */,
-				1861AA5F993C9FDC5120C8310233D2FD /* Views */,
-			);
-			name = GZTableViewManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		49C79B2ED41410AC62AB2ECB81ABD5CA /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8ADEF9D9640BCD08778D277B5CF2EDF6 /* Pods-GZTableViewManager_Example */,
-				C7C3620AA1C87F59D95F0FF753C1FF1A /* Pods-GZTableViewManager_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		666EB2D8C9C4408C48B65348100638FC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				48CE673F77B43494A2DD758543A0549E /* GZTableViewManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				666EB2D8C9C4408C48B65348100638FC /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4806D7F61DADBD10B8638E3AF5BF1658 /* Products */,
-				49C79B2ED41410AC62AB2ECB81ABD5CA /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8ADEF9D9640BCD08778D277B5CF2EDF6 /* Pods-GZTableViewManager_Example */ = {
-			isa = PBXGroup;
-			children = (
-				07A1F6BEDB89FCD21B7EA3DBBBE7DB1E /* Info.plist */,
-				35D5898402EE06B5B0AB69F06EB2904D /* Pods-GZTableViewManager_Example.modulemap */,
-				3736413AADCE70C0439A864A5AE3785F /* Pods-GZTableViewManager_Example-acknowledgements.markdown */,
-				BEDDCC08D9CF273F111A56FBD48F7CBC /* Pods-GZTableViewManager_Example-acknowledgements.plist */,
-				0B7A59A8A65C9DC915F44DCDFE58DBDE /* Pods-GZTableViewManager_Example-dummy.m */,
-				101A3F4B5626D741A7E032EF3F7851FA /* Pods-GZTableViewManager_Example-frameworks.sh */,
-				9C13AA5A758F0A2D329032351FCE7455 /* Pods-GZTableViewManager_Example-resources.sh */,
-				2FAB0A63DF68BD270B13FCA48FD2D715 /* Pods-GZTableViewManager_Example-umbrella.h */,
-				53FC9976594B5B70914C44CFFF9D8090 /* Pods-GZTableViewManager_Example.debug.xcconfig */,
-				E1CCE5F958B319F9A8E222716CE602AF /* Pods-GZTableViewManager_Example.release.xcconfig */,
-			);
-			name = "Pods-GZTableViewManager_Example";
-			path = "Target Support Files/Pods-GZTableViewManager_Example";
-			sourceTree = "<group>";
-		};
-		A6CCAE19B33F94B2615D23B0664A9FF8 /* Ex */ = {
-			isa = PBXGroup;
-			children = (
-				7C4B041AB8C2B321D84B3AA20982CCA7 /* NSString+GZNumberFormat.h */,
-				5CFDDD8C222FC084F9A7AA6F36AA2671 /* NSString+GZNumberFormat.m */,
-				A557160B9B2040F793A84344C953DAF6 /* NSString+GZTableViewItem.h */,
-				5B071771F8EF2DD6956AF9F4061E6B36 /* NSString+GZTableViewItem.m */,
-			);
-			name = Ex;
-			path = GZTableViewManager/Classes/Ex;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF3A6CAA75F6F084260520058842B515 /* Items */ = {
-			isa = PBXGroup;
-			children = (
-				602B7017E38656C749C8EDC9181B4CB7 /* GZBoolItem.h */,
-				D14359A15845588F489C341AE58EFC8C /* GZBoolItem.m */,
-				775AD4D0122C2DFEFFDE903E1706EB0F /* GZDatePickerItem.h */,
-				C82654C1A0A7B74A944F7055719E3C83 /* GZDatePickerItem.m */,
-				DD0DB6CFBBC0E54FDF20A337BEEC3487 /* GZFloatItem.h */,
-				D5CD5D8465ED0FA47BCB3F930EE329E6 /* GZFloatItem.m */,
-				0C3F434CC4E6DCDA9E14355AA7ADB1B6 /* GZInlineDatePickerItem.h */,
-				E5052CFE3784AD25617A209AE1CBFAEC /* GZInlineDatePickerItem.m */,
-				DA5A80EFD0ADB819B288C5C80D98CDD6 /* GZInlinePickerItem.h */,
-				E8C840A3409AE958ADCB9511E525DD70 /* GZInlinePickerItem.m */,
-				1856AB9DDA6559137C99BA4B19655342 /* GZLongTextItem.h */,
-				D36A0454F1DA4B0B177E03A49E1D7D3E /* GZLongTextItem.m */,
-				AAE29786110140CAFDE37DE3F75CC1A3 /* GZNumberItem.h */,
-				2C564CC8BBC0B8AD5ACAF6D2A769CB55 /* GZNumberItem.m */,
-				081E8C5DD285A216ED2E6817735C2411 /* GZPickerItem.h */,
-				81D5EEF33604F2DD688A274A8C4865DB /* GZPickerItem.m */,
-				066931080181D99419A715F1335A431C /* GZTextItem.h */,
-				4FCC1E57AE4B1D8E8FF8238A63CB00DA /* GZTextItem.m */,
-			);
-			name = Items;
-			path = GZTableViewManager/Classes/Items;
-			sourceTree = "<group>";
-		};
-		C7C3620AA1C87F59D95F0FF753C1FF1A /* Pods-GZTableViewManager_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				524D93865A6DD0B830C339CB57A9CE90 /* Info.plist */,
-				2220B11F908258F4782FCDDEDF4F3384 /* Pods-GZTableViewManager_Tests.modulemap */,
-				54C08A60BB5FA725BADDBCE423BCD2A1 /* Pods-GZTableViewManager_Tests-acknowledgements.markdown */,
-				ACA458828876626FBA4D20D5D90C7414 /* Pods-GZTableViewManager_Tests-acknowledgements.plist */,
-				2FC00132FFA58E8C298A402449B0837B /* Pods-GZTableViewManager_Tests-dummy.m */,
-				4C9CA251F631DF2B6AF750F73CC33E17 /* Pods-GZTableViewManager_Tests-frameworks.sh */,
-				699F4FD83511A213DC68206DA9F4E57F /* Pods-GZTableViewManager_Tests-resources.sh */,
-				61D11C42F1902CE68CC09846B2F703F1 /* Pods-GZTableViewManager_Tests-umbrella.h */,
-				2BB967C10111C79384B12E53EF060058 /* Pods-GZTableViewManager_Tests.debug.xcconfig */,
-				DD1234AE4066F00B27B7A2910AA0760F /* Pods-GZTableViewManager_Tests.release.xcconfig */,
-			);
-			name = "Pods-GZTableViewManager_Tests";
-			path = "Target Support Files/Pods-GZTableViewManager_Tests";
-			sourceTree = "<group>";
-		};
-		D95D0AB4BDE92612D3A002D97A359BEA /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				A5AFE7460AC741C3A1C00C8B6910691D /* GZTableViewBoolCell.h */,
-				60EA3A2C09DCE028D3E2868FC9D0D24B /* GZTableViewBoolCell.m */,
-				33DFC0588E1C353B5920D935621213AE /* GZTableViewDatePickerCell.h */,
-				B8719C899355826957E74D21EAA63B3F /* GZTableViewDatePickerCell.m */,
-				1664CCDE3BF7D3557192C943830E0F4C /* GZTableViewFloatCell.h */,
-				32A0915717E547CF92B9DC4BA20DD473 /* GZTableViewFloatCell.m */,
-				565A4C18516EE9B038CCC9B0E0AC6BB4 /* GZTableViewInlineDatePickerCell.h */,
-				A9846CB683204AD65C425E81C77243A1 /* GZTableViewInlineDatePickerCell.m */,
-				73DAD137F5E17900AC6A1A931057FAC2 /* GZTableViewInlinePickerCell.h */,
-				876D6DB614EF0CB9820AB345A51FD55F /* GZTableViewInlinePickerCell.m */,
-				B7601DC547B954F4411F4E53BAD4A7BC /* GZTableViewLongTextCell.h */,
-				52868E09AE8267E82CA35EC269C6F71C /* GZTableViewLongTextCell.m */,
-				210BC8E3679204D0668CFFDA41C50879 /* GZTableViewNumberCell.h */,
-				580617239163262A943DCF0003DD1A66 /* GZTableViewNumberCell.m */,
-				1ADB2D5E49BB5277A49C29B36B063C41 /* GZTableViewPickerCell.h */,
-				12BFF3331C8719F4AB8AC67647404F58 /* GZTableViewPickerCell.m */,
-				00CB84EF8A6DC22C044E62ABCDE0F8C5 /* GZTableViewTextCell.h */,
-				820BE090C9D96168775E1DD11F5DD309 /* GZTableViewTextCell.m */,
+				3CFF8ABE446B2F5FD8ABD37D9C37EF0B /* GZTableViewBoolCell.h */,
+				5DAA871CBD07D1AF8D9A470A11EFE097 /* GZTableViewBoolCell.m */,
+				27E74741E5F303CEA79C6E6978E86FB1 /* GZTableViewDatePickerCell.h */,
+				0FEFB7F983123A133BF07988FFF69D71 /* GZTableViewDatePickerCell.m */,
+				9023DECA589F9A54D0CEFC13B2A12642 /* GZTableViewFloatCell.h */,
+				839DF81785A56B80B550B28FF92011A8 /* GZTableViewFloatCell.m */,
+				E2C2B7698000DE4B1BCB05BCDC5ACFF2 /* GZTableViewInlineDatePickerCell.h */,
+				900420D2A2EE7F615290B476086E0BA2 /* GZTableViewInlineDatePickerCell.m */,
+				CCFA13F8FA76A68073B7DB0C6E249634 /* GZTableViewInlinePickerCell.h */,
+				154F825D5B21EC4349E7AC3B6921CA98 /* GZTableViewInlinePickerCell.m */,
+				E03F2B87B5922FC46CE6CFE18325619A /* GZTableViewLongTextCell.h */,
+				2AD34AD91F8EA284072402E9615A933A /* GZTableViewLongTextCell.m */,
+				BDFD2997007F1BB277A402308AF0EBD1 /* GZTableViewNumberCell.h */,
+				7AD10BAD86695706B0599ED669FBE65F /* GZTableViewNumberCell.m */,
+				7AD0C5C292FE12460FFD43BC996673D7 /* GZTableViewOptionCell.h */,
+				18FACC69AE65D3682D54794C79D0F634 /* GZTableViewOptionCell.m */,
+				D3D4542B2CAB6E95F8F1187DE3D85FBB /* GZTableViewPickerCell.h */,
+				39EB06B709BA04464162111693797B75 /* GZTableViewPickerCell.m */,
+				0BA7C4EC0FCEBD7051E44E9F0A30C062 /* GZTableViewTextCell.h */,
+				F011DA16DE99331A142B85D2FD9E1E82 /* GZTableViewTextCell.m */,
 			);
 			name = Cells;
 			path = GZTableViewManager/Classes/Cells;
 			sourceTree = "<group>";
 		};
-		E2D4425FD70B187871B567D9EE71F4FC /* Support Files */ = {
+		19AFE5235187618B394264DF6E11818F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B62AEDB8D23685836FF01338AB6318AF /* GZTableViewManager.modulemap */,
-				0AC83403696457CD6D66AF90EF983688 /* GZTableViewManager.xcconfig */,
-				A34CFFFFEA70E1742FBB13B25C9102C8 /* GZTableViewManager-dummy.m */,
-				6F7306D4F2DAD5092337E97D935CF2C8 /* GZTableViewManager-prefix.pch */,
-				A0E3CD64C77967DD804333A81F388498 /* GZTableViewManager-umbrella.h */,
-				A3CBCDD921AD56BA87D79D96E1AA7166 /* Info.plist */,
+				624476029EA05BEE5037082762240D59 /* GZNumberFormatTextField.h */,
+				D013A70784271472C8CD63C6881BDD65 /* GZNumberFormatTextField.m */,
+				D9FB81A1F52920941CE4971FBB353B7E /* GZPlaceholderTextView.h */,
+				71C8184B8F90D17C0311787C432E3AD3 /* GZPlaceholderTextView.m */,
+				30F7AF6FBF17400312262BEA00238165 /* GZTableViewOptionsController.h */,
+				1886E7730338D7FEA88736359131E86E /* GZTableViewOptionsController.m */,
+			);
+			name = Views;
+			path = GZTableViewManager/Classes/Views;
+			sourceTree = "<group>";
+		};
+		55311D1E939277025FC116A568CD5782 /* GZTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				E5243149EC6A6DCB44D20AFCE11B771C /* GZTableViewCell.h */,
+				747080D3E671748201D04BA77BCD81A5 /* GZTableViewCell.m */,
+				02DCBC664A1CD1B70EB57A3380603C8D /* GZTableViewItem.h */,
+				687373A85B391F7A4CEEF4DD0A74C7BA /* GZTableViewItem.m */,
+				E901B05834FEC702A050160C03BB6C45 /* GZTableViewManager.h */,
+				BF5991943E8328D1B458206F4073F9D7 /* GZTableViewManager.m */,
+				3B21D80491E864C3A9CB7A1F437606FE /* GZTableViewSection.h */,
+				BDE66A35F6FAD0C91FC481333036D48B /* GZTableViewSection.m */,
+				6A117B9EC24F11ED450B9B69A0D9BEC2 /* Plan.h */,
+				18CB09080F17E634EE45B0EA97E49AE9 /* Cells */,
+				F130B69606B4544D3025E65F93A8A233 /* Ex */,
+				D41515BDDCDBC6B8EDAAC6611E555120 /* Items */,
+				7F85C1AFB243A534650F49EC977F81CF /* Pod */,
+				C74028A1F1C9E2859D1D211BEDDEF9D5 /* Support Files */,
+				19AFE5235187618B394264DF6E11818F /* Views */,
+			);
+			name = GZTableViewManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7F85C1AFB243A534650F49EC977F81CF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE6C7065B194EA12F52F2589EE8323 /* GZTableViewManager.podspec */,
+				4ADD1AB3FD3259DCA7012726FE0F9D23 /* LICENSE */,
+				CFF6378D1BDE1B84CAEF1D0CB9431BB4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		82BB73CEF2F7AD00CBFA547F60237906 /* Pods-GZTableViewManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				385C168FA21A25216D78492F901EDEF9 /* Pods-GZTableViewManager_Tests.modulemap */,
+				6C6D4645ACF80654FD872BD9244D2F27 /* Pods-GZTableViewManager_Tests-acknowledgements.markdown */,
+				9FD921A73B6C21F534A92D255158883A /* Pods-GZTableViewManager_Tests-acknowledgements.plist */,
+				AD6A2A73951BE6130B9C6DB3E8CFB6C0 /* Pods-GZTableViewManager_Tests-dummy.m */,
+				18E513DF98DE629012347D41B4146B36 /* Pods-GZTableViewManager_Tests-Info.plist */,
+				51DF6E776F66D9A7395CF923A8994F44 /* Pods-GZTableViewManager_Tests-umbrella.h */,
+				F7EA90589CB47DDC4CD97DE62BC0A18C /* Pods-GZTableViewManager_Tests.debug.xcconfig */,
+				46D1C01B81271E027C3A9C17794935E3 /* Pods-GZTableViewManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-GZTableViewManager_Tests";
+			path = "Target Support Files/Pods-GZTableViewManager_Tests";
+			sourceTree = "<group>";
+		};
+		83638773F74A5F19F3A3F81D8B93276C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92F3DB76F046C8B9E369131CB610D183 /* Pods-GZTableViewManager_Example */,
+				82BB73CEF2F7AD00CBFA547F60237906 /* Pods-GZTableViewManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		92F3DB76F046C8B9E369131CB610D183 /* Pods-GZTableViewManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9C04125D1FCCD0DEE55022492A5E30E4 /* Pods-GZTableViewManager_Example.modulemap */,
+				48F06E6CDCFD13D2B83D01861928C0F5 /* Pods-GZTableViewManager_Example-acknowledgements.markdown */,
+				C8ADAE877C185FCA87BD4C1C0C04A90C /* Pods-GZTableViewManager_Example-acknowledgements.plist */,
+				575F1C7648015BFDEB3448FA00608006 /* Pods-GZTableViewManager_Example-dummy.m */,
+				32528CFBC664CDE9539FC1A3BB7EF7F7 /* Pods-GZTableViewManager_Example-frameworks.sh */,
+				9ABFFF3963B3B386759A86BC2B51DFA2 /* Pods-GZTableViewManager_Example-Info.plist */,
+				6529D7A8D38C8CB8B5D678721BA9A496 /* Pods-GZTableViewManager_Example-umbrella.h */,
+				C229E5816B5FC7609DAB1FFEE0D2C3D1 /* Pods-GZTableViewManager_Example.debug.xcconfig */,
+				ACD6C882C20B08EB752FD015C8AFACEB /* Pods-GZTableViewManager_Example.release.xcconfig */,
+			);
+			name = "Pods-GZTableViewManager_Example";
+			path = "Target Support Files/Pods-GZTableViewManager_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C74028A1F1C9E2859D1D211BEDDEF9D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				021963E91C14007DCC871E6BBEF57FB7 /* GZTableViewManager.modulemap */,
+				3CDCA80125F697A8A5992ECF25F34D77 /* GZTableViewManager.xcconfig */,
+				3CCE27B1AC51E674E1CE5FCB630D033D /* GZTableViewManager-dummy.m */,
+				81100A002EE1851C01FC21E49FB56592 /* GZTableViewManager-Info.plist */,
+				120B64538ED43D1A5D3BD1F296E07524 /* GZTableViewManager-prefix.pch */,
+				64B8393C98A9FF277F37539601CFC687 /* GZTableViewManager-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GZTableViewManager";
 			sourceTree = "<group>";
 		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D3DB40027846F191FF257A5E1486A98A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DEE0A0F6FCEB5F7334CA832AA86917EF /* Products */,
+				83638773F74A5F19F3A3F81D8B93276C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3DB40027846F191FF257A5E1486A98A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55311D1E939277025FC116A568CD5782 /* GZTableViewManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D41515BDDCDBC6B8EDAAC6611E555120 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				8B757F4BA3C8F402EF3E6F4578A722E0 /* GZBoolItem.h */,
+				918E81F417E2C67E5568EF8C481FEEF3 /* GZBoolItem.m */,
+				A21443B8CA1AF0D96C59050498769A56 /* GZDatePickerItem.h */,
+				9AAECFE86DFEC1422EC9C11A600574EC /* GZDatePickerItem.m */,
+				A76B0E426E4148B5D33889C4B9CF0C00 /* GZFloatItem.h */,
+				FB6F0040975588904E220420CCC5157E /* GZFloatItem.m */,
+				DE0003EA00CBAC61433EAA0D70DE4931 /* GZInlineDatePickerItem.h */,
+				86C9B4E509C960B554BD92BF5C86984F /* GZInlineDatePickerItem.m */,
+				B48D173CC74C33AE5560BD7F675AD97C /* GZInlinePickerItem.h */,
+				B861D2C683CE1A31426CAC401D3D985A /* GZInlinePickerItem.m */,
+				35ED1BFFA7CFF27F56E97F7693A61F57 /* GZLongTextItem.h */,
+				483224BFFEED6E314FDC0C2A5892F0A4 /* GZLongTextItem.m */,
+				5F48990BEDA8AD738FA13B4B6C3E327F /* GZMultipleChoiceItem.h */,
+				D41250C132F4684890008BC38A6718B7 /* GZMultipleChoiceItem.m */,
+				FDC965FEDB58AEE8319CFEDE64020A32 /* GZNumberItem.h */,
+				EDA8266F844AB2E80A0907D2AB2FB9F2 /* GZNumberItem.m */,
+				2002F3BAC4A7742CDFDC9E340396C5D5 /* GZPickerItem.h */,
+				4D312A4AB97B93071BD9D6AD9FEA1110 /* GZPickerItem.m */,
+				761A559F1A9C1672AB8FFB877C0FED2B /* GZRadioItem.h */,
+				8750DA3426543F8566F711B4FB83714C /* GZRadioItem.m */,
+				98F76ADE39801A744D669EBAF6ACABC0 /* GZTextItem.h */,
+				3E492B33DDF66FD81556C9327889101E /* GZTextItem.m */,
+			);
+			name = Items;
+			path = GZTableViewManager/Classes/Items;
+			sourceTree = "<group>";
+		};
+		DEE0A0F6FCEB5F7334CA832AA86917EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383B096ACC789896D70B3CF27BF1BE06 /* GZTableViewManager.framework */,
+				99D71ADA65FAC0A11CCCAD84320847A0 /* Pods_GZTableViewManager_Example.framework */,
+				7B6F3ACAB687CF43CD2CEB0263484796 /* Pods_GZTableViewManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F130B69606B4544D3025E65F93A8A233 /* Ex */ = {
+			isa = PBXGroup;
+			children = (
+				47A769A4017243DDA4F1C0DE7D765E77 /* NSString+GZNumberFormat.h */,
+				1DDD2EE782FC792EC0B8336E24B440A3 /* NSString+GZNumberFormat.m */,
+				43324D4514DCFB2D6877747064281C22 /* NSString+GZTableViewItem.h */,
+				3468302E6D2F5E10C4B0C15394186251 /* NSString+GZTableViewItem.m */,
+			);
+			name = Ex;
+			path = GZTableViewManager/Classes/Ex;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2F6E4A1CC658BEEE364C603846B12590 /* Headers */ = {
+		0C4994042B8B025276538D3624A1AFEF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7397BD671BD74FB0B736A71438C6AC07 /* Pods-GZTableViewManager_Example-umbrella.h in Headers */,
+				C25543E9C58675201B88EF3A4E2400F6 /* Pods-GZTableViewManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8433C0505CFD721E4193CCA4BFBA881B /* Headers */ = {
+		46AE93C4B8273CA2613376531FCCCCE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7C489097E748C263D1367E8AFF78703 /* GZBoolItem.h in Headers */,
-				0BC15200DF411536EBB333F932333291 /* GZDatePickerItem.h in Headers */,
-				440E391423E46BBBD53F767FAD5CB566 /* GZFloatItem.h in Headers */,
-				83B55B293F677D5066BBE05B82E926A3 /* GZInlineDatePickerItem.h in Headers */,
-				9F44E0EBE961401074453CB1F29B2924 /* GZInlinePickerItem.h in Headers */,
-				FEA200FDEBBB433F83E7500F67573AF9 /* GZLongTextItem.h in Headers */,
-				2970104C321B856650DAE54D9E4914E5 /* GZNumberFormatTextField.h in Headers */,
-				1CCEFBDBB7DAA2E72B68CE7516E9F2D7 /* GZNumberItem.h in Headers */,
-				25E3CC9A67234C9A3E79FA4C2E375E4A /* GZPickerItem.h in Headers */,
-				748311ACEEE01E4D2C0903823508521A /* GZPlaceholderTextView.h in Headers */,
-				D84C50E35EBF5A24D9CFD79259B9854D /* GZTableViewBoolCell.h in Headers */,
-				F4C494CB748AFDA83F635AEFE88BEB40 /* GZTableViewCell.h in Headers */,
-				EFD8273EB0859C9C4D8A41D3E54E1266 /* GZTableViewDatePickerCell.h in Headers */,
-				D2230763795AE55D4D6091D2A6619E53 /* GZTableViewFloatCell.h in Headers */,
-				3783221C26D89A3AC7C15141C14F9BF7 /* GZTableViewInlineDatePickerCell.h in Headers */,
-				654C5EABE9F91897F43F830164A5ECA4 /* GZTableViewInlinePickerCell.h in Headers */,
-				5D50F5E489FD7DE3C9D15E41B4339F5A /* GZTableViewItem.h in Headers */,
-				E14C276540CA78ACC800F3638C31695B /* GZTableViewLongTextCell.h in Headers */,
-				785FB67C549DAEC0C19F60B5AB16AB58 /* GZTableViewManager-umbrella.h in Headers */,
-				69D447163C5EFBE0FC42A4564A3E6C8D /* GZTableViewManager.h in Headers */,
-				C37CC809CDD5C00D69E5C7494F59D798 /* GZTableViewNumberCell.h in Headers */,
-				9C888AC63F52E0F252A4E84A7770513F /* GZTableViewPickerCell.h in Headers */,
-				C7C4355C8FA3DA5EBA3BB1BE51A973E7 /* GZTableViewSection.h in Headers */,
-				525A323A3B134F0F5D3D9366D2BEFDA4 /* GZTableViewTextCell.h in Headers */,
-				F1FDC66BAB5F5986F7B210FB5D1A787B /* GZTextItem.h in Headers */,
-				03E49C6F82B138F66BA2D8798B83AF12 /* NSString+GZNumberFormat.h in Headers */,
-				22FAA77CFCAD45764B1BB2972988C5E7 /* NSString+GZTableViewItem.h in Headers */,
-				C459E0D7EE6CF4431D83E2CB062675D1 /* Plan.h in Headers */,
+				049F068A0E4821B8032AB948F0EAEFB5 /* GZBoolItem.h in Headers */,
+				7FA10BD558FED620CEDC2B7676C0C3F4 /* GZDatePickerItem.h in Headers */,
+				D5CDC490C6B20EDFC6B6A0D4F12AB441 /* GZFloatItem.h in Headers */,
+				7106761E0BAFD5F496E8A0E2C0CA0EDF /* GZInlineDatePickerItem.h in Headers */,
+				8330590CE6827DDBDD2FE4D4DBA1834D /* GZInlinePickerItem.h in Headers */,
+				FE6F9640D021E3E74A65122F744EC574 /* GZLongTextItem.h in Headers */,
+				3AA6228530F019B67E2AAC7A8549A035 /* GZMultipleChoiceItem.h in Headers */,
+				07BE5F4B5B3639E2D9A23B99F9B11BEB /* GZNumberFormatTextField.h in Headers */,
+				05C6D3DB36DCCA594B0A24E6456D650F /* GZNumberItem.h in Headers */,
+				764BD934A561D82979DA796AEEC82CF4 /* GZPickerItem.h in Headers */,
+				D0509E5BE002307FDB584F7BE3E5241C /* GZPlaceholderTextView.h in Headers */,
+				8252FF6B39FEEDF5A64E882388B1A8D1 /* GZRadioItem.h in Headers */,
+				01D4C71E2D2D0ECFBDE60A8752A9823B /* GZTableViewBoolCell.h in Headers */,
+				01F473E824ACFE7CD768596DCC82C90F /* GZTableViewCell.h in Headers */,
+				7599AE3DA40064483B8F36CD2FE76E4E /* GZTableViewDatePickerCell.h in Headers */,
+				AD037471C35ED7BDFFCE151C9437AF3A /* GZTableViewFloatCell.h in Headers */,
+				836D389AC1E60CDBAB4E77C23854896D /* GZTableViewInlineDatePickerCell.h in Headers */,
+				34F8E614B95135F957964AD9392C7E7A /* GZTableViewInlinePickerCell.h in Headers */,
+				712CCD9717A5578B4DFA5EBB4E0F406F /* GZTableViewItem.h in Headers */,
+				69F84481A9FE93D3F85AD31BDD1FE6F9 /* GZTableViewLongTextCell.h in Headers */,
+				B41045AEE2661889F67A956F0E140BD6 /* GZTableViewManager-umbrella.h in Headers */,
+				39790ADE3242293FF849CED60399C600 /* GZTableViewManager.h in Headers */,
+				B91A9F869ACAA5A0898E0278DAEAD638 /* GZTableViewNumberCell.h in Headers */,
+				5D7C2B6D949DE1572D2722A39CA3FF9D /* GZTableViewOptionCell.h in Headers */,
+				784E2F2719F22D5054758F8911FA489A /* GZTableViewOptionsController.h in Headers */,
+				63F4E8083732685629E64015805BBD35 /* GZTableViewPickerCell.h in Headers */,
+				4A2A67345A373379E5D3249A51484293 /* GZTableViewSection.h in Headers */,
+				C9903C33BF2D4352752C0761D9438F19 /* GZTableViewTextCell.h in Headers */,
+				877AA62B7A5983F45927FD020B18378B /* GZTextItem.h in Headers */,
+				1797F9811692FC2A6A88CEADD0D69360 /* NSString+GZNumberFormat.h in Headers */,
+				9C659431C2BF7E651ADB56D4FD7A139C /* NSString+GZTableViewItem.h in Headers */,
+				5218F280529FA91F0F8853FB0B352766 /* Plan.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96CF815EF32D0E5A33FBE7FD1BA55A23 /* Headers */ = {
+		A20F170A1D136B31404B9C2B93529CEA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10C4001EF11559974DDF36A064281D8D /* Pods-GZTableViewManager_Tests-umbrella.h in Headers */,
+				B4D2F7C4C0FB55F68E6349CFBA777E76 /* Pods-GZTableViewManager_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0208C81F60AF88CD4C4687EE92C894CB /* Pods-GZTableViewManager_Example */ = {
+		51B222A8465180BA231B5185E939E077 /* GZTableViewManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04EB420E46240E209006458ACCB8BCEE /* Build configuration list for PBXNativeTarget "Pods-GZTableViewManager_Example" */;
+			buildConfigurationList = 4C72CF8D714E63D0AD996F848AA11355 /* Build configuration list for PBXNativeTarget "GZTableViewManager" */;
 			buildPhases = (
-				EE87DB1F39FF713D0CF1B2780F7A7BC0 /* Sources */,
-				DB3227DC6638E58546C51C211C4AE132 /* Frameworks */,
-				2F6E4A1CC658BEEE364C603846B12590 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				767D01182D51FD373BDBFB4A37B5C603 /* PBXTargetDependency */,
-			);
-			name = "Pods-GZTableViewManager_Example";
-			productName = "Pods-GZTableViewManager_Example";
-			productReference = DAD60AD898D3D76F80451AEB78BD6F89 /* Pods_GZTableViewManager_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		60A2138DC3EC611D8FDBDFFA490F86D6 /* GZTableViewManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 59A3AF2F01CD266FA5119321C60E80E1 /* Build configuration list for PBXNativeTarget "GZTableViewManager" */;
-			buildPhases = (
-				48CEA35E111149F50ED12255D889F247 /* Sources */,
-				4CF78CA9FC1B22BB597C5A01E54DDB6F /* Frameworks */,
-				8433C0505CFD721E4193CCA4BFBA881B /* Headers */,
+				46AE93C4B8273CA2613376531FCCCCE4 /* Headers */,
+				857AF8AE32C7AA2D83E377FB581DC24A /* Sources */,
+				A4041FF8F100D427CA42A13C4B3785A3 /* Frameworks */,
+				750DA8ED813030845C17B55F4D1743CE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -508,127 +513,176 @@
 			);
 			name = GZTableViewManager;
 			productName = GZTableViewManager;
-			productReference = B8B35B0ABC9C3861BA1441F16CFF41B9 /* GZTableViewManager.framework */;
+			productReference = 383B096ACC789896D70B3CF27BF1BE06 /* GZTableViewManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7191B2C0E33E89A984B474E2E3E73CBD /* Pods-GZTableViewManager_Tests */ = {
+		54D49BE110DC13A03466A8E968786AD5 /* Pods-GZTableViewManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82887C6B991C864C64A19951BD41C486 /* Build configuration list for PBXNativeTarget "Pods-GZTableViewManager_Tests" */;
+			buildConfigurationList = B05261B8E3433D3C42547E7B56F3D00C /* Build configuration list for PBXNativeTarget "Pods-GZTableViewManager_Example" */;
 			buildPhases = (
-				496404E6263958BBC2B037B2BA044C9B /* Sources */,
-				5E5B5EAD3480D2D573FBB931AD36389C /* Frameworks */,
-				96CF815EF32D0E5A33FBE7FD1BA55A23 /* Headers */,
+				0C4994042B8B025276538D3624A1AFEF /* Headers */,
+				5B0434077E0FEF246DA879B3B62FFD7F /* Sources */,
+				12E6D3D6D0C77A2FC279AA1E25CAF9AC /* Frameworks */,
+				9FE1388082577D169612638A38B8D8D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F56CCE1C7B7A41087FD4E3E1FFD9BE0 /* PBXTargetDependency */,
+				DD190E96A735A8AC777733994A2136C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-GZTableViewManager_Example";
+			productName = "Pods-GZTableViewManager_Example";
+			productReference = 99D71ADA65FAC0A11CCCAD84320847A0 /* Pods_GZTableViewManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC373C0C514F1363331E2B7E4CDFBC0F /* Pods-GZTableViewManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFCE46529FB5D66072831838D3BD65C /* Build configuration list for PBXNativeTarget "Pods-GZTableViewManager_Tests" */;
+			buildPhases = (
+				A20F170A1D136B31404B9C2B93529CEA /* Headers */,
+				8F0D3E8CADC22E590CBEC39D824F9853 /* Sources */,
+				27F136EBF35AFA204E6A74891C28C417 /* Frameworks */,
+				3617054E4E8D15C3688858EECC694E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1E86031E46DA10C43DA827F34609D4 /* PBXTargetDependency */,
 			);
 			name = "Pods-GZTableViewManager_Tests";
 			productName = "Pods-GZTableViewManager_Tests";
-			productReference = 067EE656CD7C119006FDFABEC19D3683 /* Pods_GZTableViewManager_Tests.framework */;
+			productReference = 7B6F3ACAB687CF43CD2CEB0263484796 /* Pods_GZTableViewManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4806D7F61DADBD10B8638E3AF5BF1658 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DEE0A0F6FCEB5F7334CA832AA86917EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60A2138DC3EC611D8FDBDFFA490F86D6 /* GZTableViewManager */,
-				0208C81F60AF88CD4C4687EE92C894CB /* Pods-GZTableViewManager_Example */,
-				7191B2C0E33E89A984B474E2E3E73CBD /* Pods-GZTableViewManager_Tests */,
+				51B222A8465180BA231B5185E939E077 /* GZTableViewManager */,
+				54D49BE110DC13A03466A8E968786AD5 /* Pods-GZTableViewManager_Example */,
+				CC373C0C514F1363331E2B7E4CDFBC0F /* Pods-GZTableViewManager_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		3617054E4E8D15C3688858EECC694E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750DA8ED813030845C17B55F4D1743CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE1388082577D169612638A38B8D8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		48CEA35E111149F50ED12255D889F247 /* Sources */ = {
+		5B0434077E0FEF246DA879B3B62FFD7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723A1B5D9E80E7AD0C13CF2190C04920 /* GZBoolItem.m in Sources */,
-				89D355BD316CA9E47499F95CD082D4AD /* GZDatePickerItem.m in Sources */,
-				DE3F066E580AC101E36C6371EC22C2B9 /* GZFloatItem.m in Sources */,
-				2AFB52D7DEDD66320944D9E7159EBB6A /* GZInlineDatePickerItem.m in Sources */,
-				8C94CFE46A3FA2109FE292F7D6CE5D24 /* GZInlinePickerItem.m in Sources */,
-				532F08009B1DFB823043E67166AAA16D /* GZLongTextItem.m in Sources */,
-				B083364937228C94776F0D68E476B1F9 /* GZNumberFormatTextField.m in Sources */,
-				8FDA53F9C8AE0A5E081A09598A38F1C1 /* GZNumberItem.m in Sources */,
-				C3EB2875EC590B39370848F4A5F5B561 /* GZPickerItem.m in Sources */,
-				C8EF86113286CB274A79BA72DD13CF1B /* GZPlaceholderTextView.m in Sources */,
-				A2EB89B9952C2DFF0F1754F17C17D86E /* GZTableViewBoolCell.m in Sources */,
-				7EA27D790F163481FE3EA55F8D4BE280 /* GZTableViewCell.m in Sources */,
-				719E941B2E8556C48090214286FF2087 /* GZTableViewDatePickerCell.m in Sources */,
-				31EB35A45D3209E381CA4CDF6F4D3EE8 /* GZTableViewFloatCell.m in Sources */,
-				27C2885EC0DBD936476383FB24820A62 /* GZTableViewInlineDatePickerCell.m in Sources */,
-				3E499CA3D303839E5166FC2022271E84 /* GZTableViewInlinePickerCell.m in Sources */,
-				2D67443D7672699FB21CA05DA8D5981B /* GZTableViewItem.m in Sources */,
-				8AE33E19DDBD280CB619700DF43156C7 /* GZTableViewLongTextCell.m in Sources */,
-				B1B54F1A49D018DFA30A96E74F0A60EC /* GZTableViewManager-dummy.m in Sources */,
-				798CC82B2571D32866E6CD9583679916 /* GZTableViewManager.m in Sources */,
-				C15A09BEE214A18A52E11C49FD534964 /* GZTableViewNumberCell.m in Sources */,
-				3B21966A23FE7F78473A2105500E2817 /* GZTableViewPickerCell.m in Sources */,
-				BBD31E2C6C47495C8FBC38ACDB4871ED /* GZTableViewSection.m in Sources */,
-				D26B08E2B8D7921E8B20074CE8F77C18 /* GZTableViewTextCell.m in Sources */,
-				32B512358CBDA5EEB28CC5FC16B97980 /* GZTextItem.m in Sources */,
-				5D9255C8DE51FE27152A35333DC5B6A0 /* NSString+GZNumberFormat.m in Sources */,
-				6C853E377E5037E12E8E239E7F8B10DC /* NSString+GZTableViewItem.m in Sources */,
+				26F28D4D9E0CF1F31476D62942FEC891 /* Pods-GZTableViewManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		496404E6263958BBC2B037B2BA044C9B /* Sources */ = {
+		857AF8AE32C7AA2D83E377FB581DC24A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A37453438094D432743D90206D118AFF /* Pods-GZTableViewManager_Tests-dummy.m in Sources */,
+				7FDA12EC87D8E3DE94E36B6D0F586AEF /* GZBoolItem.m in Sources */,
+				61C5B9F9657F5B72DAB412A98A0C710C /* GZDatePickerItem.m in Sources */,
+				24940A0E7B6934E1CA2B3E7AAF596197 /* GZFloatItem.m in Sources */,
+				47215BDB39626A7ACA8063FE7F754538 /* GZInlineDatePickerItem.m in Sources */,
+				528BB561A62134E7DFCE754199FB20C6 /* GZInlinePickerItem.m in Sources */,
+				8F182183AD9263C31711F34A5FDB31B2 /* GZLongTextItem.m in Sources */,
+				FF3ECC2606B4BAC56D7BAC66690A4F11 /* GZMultipleChoiceItem.m in Sources */,
+				3B8F26F8B9D464C1E09C9FB77A9B624B /* GZNumberFormatTextField.m in Sources */,
+				21DF9D422FD562FE38CE585CE7072870 /* GZNumberItem.m in Sources */,
+				BC69104F4BD1FF4F47BE49A8621515B6 /* GZPickerItem.m in Sources */,
+				B7B367B0525DFAE9689311D5ECCE6198 /* GZPlaceholderTextView.m in Sources */,
+				75968469FDC2297BF5C5D3FB48DD4FE4 /* GZRadioItem.m in Sources */,
+				B6C965C7736F14008EAF1487DBE88015 /* GZTableViewBoolCell.m in Sources */,
+				95C9E989295D461CD2F81E4EB06C608C /* GZTableViewCell.m in Sources */,
+				25DB6423ACB5D1EF7F1EE74C21B7677A /* GZTableViewDatePickerCell.m in Sources */,
+				52CEEAE67B43B5FCA4B1E796179BEBF2 /* GZTableViewFloatCell.m in Sources */,
+				D941296D399795C94DB6B6A34FD48D6F /* GZTableViewInlineDatePickerCell.m in Sources */,
+				45D58CF1E59B9152ACF0B49BA0DA0675 /* GZTableViewInlinePickerCell.m in Sources */,
+				49716CB501FDD9F432711FE11D63B549 /* GZTableViewItem.m in Sources */,
+				55C660F2DC6169F16F6ADD9C23784997 /* GZTableViewLongTextCell.m in Sources */,
+				962C9CD742B663AED39BF5B43570F9C3 /* GZTableViewManager-dummy.m in Sources */,
+				B127D04C6181708DADEB89EA53731289 /* GZTableViewManager.m in Sources */,
+				45D03FEE1D978404C6FD8DBE3E3D7029 /* GZTableViewNumberCell.m in Sources */,
+				E5FCF5D1F0FAB8448BF17A176B9E0F55 /* GZTableViewOptionCell.m in Sources */,
+				4FB8C1B6F7DBC01E5FDE0357A9CC5092 /* GZTableViewOptionsController.m in Sources */,
+				D2C2BDFC3E742F57029C7EBDC179F39F /* GZTableViewPickerCell.m in Sources */,
+				6D61CDF0E50073A96BF88CEDE5B48813 /* GZTableViewSection.m in Sources */,
+				8B3F8B7FF7CD7E7E20C4BB486C441B35 /* GZTableViewTextCell.m in Sources */,
+				E9D5E5B46817158562C31514029FD5BA /* GZTextItem.m in Sources */,
+				4A4A178DF266BE44114FB2715F2DA332 /* NSString+GZNumberFormat.m in Sources */,
+				C8546D3AFBD502A7ECB63DB61869206E /* NSString+GZTableViewItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE87DB1F39FF713D0CF1B2780F7A7BC0 /* Sources */ = {
+		8F0D3E8CADC22E590CBEC39D824F9853 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9862DA1964713F36273BDF3FEEBB7B22 /* Pods-GZTableViewManager_Example-dummy.m in Sources */,
+				B6D5E90A1345D2D7E0ABFA075753CB6E /* Pods-GZTableViewManager_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F56CCE1C7B7A41087FD4E3E1FFD9BE0 /* PBXTargetDependency */ = {
+		BE1E86031E46DA10C43DA827F34609D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GZTableViewManager_Example";
-			target = 0208C81F60AF88CD4C4687EE92C894CB /* Pods-GZTableViewManager_Example */;
-			targetProxy = F95FF2B95DCA6D67238FC4C689F7F7EE /* PBXContainerItemProxy */;
+			target = 54D49BE110DC13A03466A8E968786AD5 /* Pods-GZTableViewManager_Example */;
+			targetProxy = E762D94BE7E591469E6B77B23ECAAD18 /* PBXContainerItemProxy */;
 		};
-		767D01182D51FD373BDBFB4A37B5C603 /* PBXTargetDependency */ = {
+		DD190E96A735A8AC777733994A2136C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GZTableViewManager;
-			target = 60A2138DC3EC611D8FDBDFFA490F86D6 /* GZTableViewManager */;
-			targetProxy = A2F6B6F719C21E82E44AB15611D49BEE /* PBXContainerItemProxy */;
+			target = 51B222A8465180BA231B5185E939E077 /* GZTableViewManager */;
+			targetProxy = A0FD4A52F26EF14A937AC101FF99BF6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		091F5FBED4B6E5BE24EC61590922B74F /* Debug */ = {
+		0F65EFF1F0CB1B3AF6A1656C8F1AA6BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BB967C10111C79384B12E53EF060058 /* Pods-GZTableViewManager_Tests.debug.xcconfig */;
+			baseConfigurationReference = 46D1C01B81271E027C3A9C17794935E3 /* Pods-GZTableViewManager_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -640,70 +694,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GZTableViewManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GZTableViewManager_Tests/Pods-GZTableViewManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5DFC78A24FA97928081ADDFBFBAA2D3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AC83403696457CD6D66AF90EF983688 /* GZTableViewManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GZTableViewManager/GZTableViewManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GZTableViewManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GZTableViewManager/GZTableViewManager.modulemap";
-				PRODUCT_MODULE_NAME = GZTableViewManager;
-				PRODUCT_NAME = GZTableViewManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6215DF7663A40A5576C3C8726934BF3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD1234AE4066F00B27B7A2910AA0760F /* Pods-GZTableViewManager_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GZTableViewManager_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GZTableViewManager_Tests/Pods-GZTableViewManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -723,7 +714,74 @@
 			};
 			name = Release;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		7592C18CB51D68667C92E0AEE08FEB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD6C882C20B08EB752FD015C8AFACEB /* Pods-GZTableViewManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GZTableViewManager_Example/Pods-GZTableViewManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GZTableViewManager_Example/Pods-GZTableViewManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		956BF3406F1E71D0EBE5D393F1CD348B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7EA90589CB47DDC4CD97DE62BC0A18C /* Pods-GZTableViewManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GZTableViewManager_Tests/Pods-GZTableViewManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GZTableViewManager_Tests/Pods-GZTableViewManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -755,8 +813,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -777,109 +893,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		BF8FF05A67E8CCF3FE2086F14186D9D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D651F2A522183CD14D9F80AA8C020CF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53FC9976594B5B70914C44CFFF9D8090 /* Pods-GZTableViewManager_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GZTableViewManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GZTableViewManager_Example/Pods-GZTableViewManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EBC642B44F2D4B82687C743147FF2AC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AC83403696457CD6D66AF90EF983688 /* GZTableViewManager.xcconfig */;
+			baseConfigurationReference = 3CDCA80125F697A8A5992ECF25F34D77 /* GZTableViewManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -891,7 +919,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/GZTableViewManager/GZTableViewManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GZTableViewManager/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/GZTableViewManager/GZTableViewManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -908,9 +936,39 @@
 			};
 			name = Release;
 		};
-		F6DB85DBC073CB1F3BC7673C2D56151F /* Release */ = {
+		C88B41761A37260D680FD51C8509451B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1CCE5F958B319F9A8E222716CE602AF /* Pods-GZTableViewManager_Example.release.xcconfig */;
+			baseConfigurationReference = 3CDCA80125F697A8A5992ECF25F34D77 /* GZTableViewManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GZTableViewManager/GZTableViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GZTableViewManager/GZTableViewManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GZTableViewManager/GZTableViewManager.modulemap";
+				PRODUCT_MODULE_NAME = GZTableViewManager;
+				PRODUCT_NAME = GZTableViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E181EE6C6460500F5BA923331DDA5961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C229E5816B5FC7609DAB1FFEE0D2C3D1 /* Pods-GZTableViewManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -922,7 +980,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GZTableViewManager_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GZTableViewManager_Example/Pods-GZTableViewManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -936,52 +994,51 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04EB420E46240E209006458ACCB8BCEE /* Build configuration list for PBXNativeTarget "Pods-GZTableViewManager_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D651F2A522183CD14D9F80AA8C020CF5 /* Debug */,
-				F6DB85DBC073CB1F3BC7673C2D56151F /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4C72CF8D714E63D0AD996F848AA11355 /* Build configuration list for PBXNativeTarget "GZTableViewManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				C88B41761A37260D680FD51C8509451B /* Debug */,
+				BF8FF05A67E8CCF3FE2086F14186D9D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59A3AF2F01CD266FA5119321C60E80E1 /* Build configuration list for PBXNativeTarget "GZTableViewManager" */ = {
+		9BFCE46529FB5D66072831838D3BD65C /* Build configuration list for PBXNativeTarget "Pods-GZTableViewManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DFC78A24FA97928081ADDFBFBAA2D3E /* Debug */,
-				EBC642B44F2D4B82687C743147FF2AC1 /* Release */,
+				956BF3406F1E71D0EBE5D393F1CD348B /* Debug */,
+				0F65EFF1F0CB1B3AF6A1656C8F1AA6BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82887C6B991C864C64A19951BD41C486 /* Build configuration list for PBXNativeTarget "Pods-GZTableViewManager_Tests" */ = {
+		B05261B8E3433D3C42547E7B56F3D00C /* Build configuration list for PBXNativeTarget "Pods-GZTableViewManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				091F5FBED4B6E5BE24EC61590922B74F /* Debug */,
-				6215DF7663A40A5576C3C8726934BF3B /* Release */,
+				E181EE6C6460500F5BA923331DDA5961 /* Debug */,
+				7592C18CB51D68667C92E0AEE08FEB03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

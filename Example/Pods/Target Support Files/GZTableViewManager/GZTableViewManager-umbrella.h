@@ -17,6 +17,7 @@
 #import "GZTableViewInlinePickerCell.h"
 #import "GZTableViewLongTextCell.h"
 #import "GZTableViewNumberCell.h"
+#import "GZTableViewOptionCell.h"
 #import "GZTableViewPickerCell.h"
 #import "GZTableViewTextCell.h"
 #import "NSString+GZNumberFormat.h"
@@ -31,12 +32,15 @@
 #import "GZInlineDatePickerItem.h"
 #import "GZInlinePickerItem.h"
 #import "GZLongTextItem.h"
+#import "GZMultipleChoiceItem.h"
 #import "GZNumberItem.h"
 #import "GZPickerItem.h"
+#import "GZRadioItem.h"
 #import "GZTextItem.h"
 #import "Plan.h"
 #import "GZNumberFormatTextField.h"
 #import "GZPlaceholderTextView.h"
+#import "GZTableViewOptionsController.h"
 
 FOUNDATION_EXPORT double GZTableViewManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char GZTableViewManagerVersionString[];
