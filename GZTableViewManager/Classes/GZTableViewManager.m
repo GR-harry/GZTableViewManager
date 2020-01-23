@@ -79,8 +79,7 @@
     self[NSStringFromClass(GZInlinePickerItem.class)]       = NSStringFromClass(GZTableViewInlinePickerCell.class);
     self[NSStringFromClass(GZDatePickerItem.class)]         = NSStringFromClass(GZTableViewDatePickerCell.class);
     self[NSStringFromClass(GZInlineDatePickerItem.class)]   = NSStringFromClass(GZTableViewInlineDatePickerCell.class);
-    self[NSStringFromClass(GZRadioItem.class)]              = NSStringFromClass(GZTableViewOptionCell.class);
-    self[NSStringFromClass(GZMultipleChoiceItem.class)]     = NSStringFromClass(GZTableViewOptionCell.class);
+    self[NSStringFromClass(GZOptionItem.class)]              = NSStringFromClass(GZTableViewOptionCell.class);
 }
 
 #pragma mark - UITableViewDataSource

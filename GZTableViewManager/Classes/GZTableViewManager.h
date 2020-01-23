@@ -43,8 +43,7 @@
 
 #import "NSString+GZTableViewItem.h"
 
-#import "GZRadioItem.h"
-#import "GZMultipleChoiceItem.h"
+#import "GZOptionItem.h"
 #import "GZTableViewOptionCell.h"
 
 @protocol GZTableViewManagerDelegate;

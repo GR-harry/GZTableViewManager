@@ -66,9 +66,9 @@
     }
     
     {
-#warning TODO: 1. GZTableViewOptionsController选择时出现警告。 2. GZRadioItem 和 GZMutilplChoiceItem是否可以用泛型统一. 3. 看看是否有进一步优化的空间.
+#warning TODO: 1. GZTableViewOptionsController选择时出现警告。 2. GZOptionItem 和 GZMutilplChoiceItem是否可以用泛型统一. 3. 看看是否有进一步优化的空间.
         __typeof (&*self) __weak weakSelf = self;
-        GZRadioItem *radioItem = [GZRadioItem itemWithText:@"Radio" value:@"option 4" selectionHandler:^(GZRadioItem *item) {
+        GZOptionItem<NSString *> *radioItem = [GZOptionItem itemWithText:@"Radio" value:@"option 4" selectionHandler:^(GZOptionItem *item) {
             [item deselectRowWithAnimated:YES];
             
             NSMutableArray *options = [NSMutableArray array];
@@ -95,26 +95,27 @@
     
     {
         __typeof (&*self) __weak weakSelf = self;
-        GZMultipleChoiceItem *radioItem = [GZMultipleChoiceItem itemWithText:@"Multiple Choice" value:@[@"option 4", @"option 5"] selectionHandler:^(GZMultipleChoiceItem *item) {
+        GZOptionItem<NSArray *> *radioItem = [GZOptionItem itemWithText:@"Multiple Choice" value:@[@"option 4", @"option 5"] selectionHandler:^(GZOptionItem *item) {
             [item deselectRowWithAnimated:YES];
-            
+
             NSMutableArray *options = [NSMutableArray array];
             for (int i = 0; i < 10; i++) {
                 NSString *string = [NSString stringWithFormat:@"option %d", i];
                 [options addObject:string.tableViewItem];
             }
-            
+
+
             
             GZTableViewOptionsController *optionsVc = [[GZTableViewOptionsController alloc]
                                                        initWithItem:item
                                                        options:options
                                                        multipleChoice:YES
                                                        completionHandler:^(GZTableViewItem *selectedItem) {
-                
+
                 [item reloadRowWithAnimation:UITableViewRowAnimationNone];
                 NSLog(@"parent: %@, child: %@", item.value, selectedItem.text);
             }];
-            
+
             [weakSelf.navigationController pushViewController:optionsVc animated:YES];
         }];
         [section addItem:radioItem];

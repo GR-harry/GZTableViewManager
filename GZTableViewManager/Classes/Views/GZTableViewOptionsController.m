@@ -6,8 +6,8 @@
 //
 
 #import "GZTableViewOptionsController.h"
-#import "GZRadioItem.h"
-#import "GZMultipleChoiceItem.h"
+#import "GZOptionItem.h"
+//#import "GZMultipleChoiceItem.h"
 
 @interface GZTableViewOptionsController ()
 
@@ -18,7 +18,7 @@
 
 @implementation GZTableViewOptionsController
 
-- (id)initWithItem:(GZTableViewItem *)item options:(NSArray *)options multipleChoice:(BOOL)multipleChoice completionHandler:(void(^)(GZTableViewItem *item))completionHandler
+- (id)initWithItem:(GZOptionItem *)item options:(NSArray *)options multipleChoice:(BOOL)multipleChoice completionHandler:(void(^)(GZTableViewItem *item))completionHandler
 {
     self = [super initWithStyle:UITableViewStyleGrouped];
     if (!self)
@@ -44,7 +44,7 @@
     
     __typeof (&*self) __weak weakSelf = self;
     void (^refreshItems)(void) = ^{
-        GZMultipleChoiceItem * __weak item = (GZMultipleChoiceItem *)weakSelf.item;
+        GZOptionItem<NSArray *> * __weak item = weakSelf.item;
         NSMutableArray *results = [[NSMutableArray alloc] init];
         for (GZTableViewItem *sectionItem in weakSelf.mainSection.items) {
             for (NSString *strValue in item.value) {
@@ -61,9 +61,11 @@
             if ([title isEqualToString:self.item.detailText])
                 accessoryType = UITableViewCellAccessoryCheckmark;
         } else {
-            GZMultipleChoiceItem * __weak item = (GZMultipleChoiceItem *)weakSelf.item;
-            for (NSString *strValue in item.value) {
-                if ([strValue isEqualToString:title]) {
+            GZOptionItem<NSArray *> * item = weakSelf.item;
+            
+//            GZMultipleChoiceItem * __weak item = (GZMultipleChoiceItem *)weakSelf.item;
+            for (NSString *value in item.value) {
+                if ([value isEqualToString:title]) {
                     accessoryType = UITableViewCellAccessoryCheckmark;
                 }
             }
@@ -74,6 +76,7 @@
                                  selectionHandler:^(GZTableViewItem *selectedItem) {
             
             UITableViewCell *cell = [weakSelf.tableView cellForRowAtIndexPath:selectedItem.indexPath];
+            
             if (!weakSelf.multipleChoice) {
                 for (NSIndexPath *indexPath in [weakSelf.tableView indexPathsForVisibleRows]) {
                     UITableViewCell *cell = [weakSelf.tableView cellForRowAtIndexPath:indexPath];
@@ -84,13 +87,12 @@
                 }
                 selectedItem.accessorType = UITableViewCellAccessoryCheckmark;
                 cell.accessoryType = UITableViewCellAccessoryCheckmark;
-                GZRadioItem * __weak item = (GZRadioItem *)weakSelf.item;
-                item.value = selectedItem.text;
+                weakSelf.item.value = selectedItem.text;
                 if (weakSelf.completionHandler)
                     weakSelf.completionHandler(selectedItem);
             }
             else { // Multiple choice item
-                GZMultipleChoiceItem * __weak item = (GZMultipleChoiceItem *)weakSelf.item;
+                GZOptionItem<NSArray *> * __weak item = weakSelf.item;
                 [weakSelf.tableView deselectRowAtIndexPath:selectedItem.indexPath animated:YES];
                 if (selectedItem.accessorType == UITableViewCellAccessoryCheckmark) {
                     selectedItem.accessorType = UITableViewCellAccessoryNone;

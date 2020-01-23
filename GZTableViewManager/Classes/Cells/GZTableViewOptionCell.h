@@ -6,11 +6,11 @@
 //
 
 #import "GZTableViewCell.h"
-#import "GZRadioItem.h"
+#import "GZOptionItem.h"
 
 @interface GZTableViewOptionCell : GZTableViewCell
 
-@property (strong, nonatomic) GZRadioItem *item;
+@property (strong, nonatomic) GZOptionItem *item;
 @property (readonly) UILabel *valueLabel;
 
 @end

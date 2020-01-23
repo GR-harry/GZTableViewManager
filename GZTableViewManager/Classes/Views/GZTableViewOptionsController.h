@@ -11,7 +11,7 @@
 
 @interface GZTableViewOptionsController : UITableViewController<GZTableViewManagerDelegate>
 
-@property (weak, readwrite, nonatomic) GZTableViewItem *item;
+@property (weak, readwrite, nonatomic) GZOptionItem *item;
 @property (strong, readwrite, nonatomic) NSArray<GZTableViewItem *> *options;
 @property (assign, readwrite, nonatomic) BOOL multipleChoice;
 @property (copy, readwrite, nonatomic) void (^completionHandler)(GZTableViewItem *item);
