@@ -41,88 +41,80 @@
     self.mainSection        = [[GZTableViewSection alloc] init];
     [self.tableViewManager addSection:self.mainSection];
     
+    [self setupItems];
+}
+
+- (void)setupItems {
     
-    __typeof (&*self) __weak weakSelf = self;
-    void (^refreshItems)(void) = ^{
-        GZOptionItem<NSArray *> * __weak item = weakSelf.item;
-        NSMutableArray *results = [[NSMutableArray alloc] init];
-        for (GZTableViewItem *sectionItem in weakSelf.mainSection.items) {
-            for (NSString *strValue in item.value) {
-                if ([strValue isEqualToString:sectionItem.text])
-                    [results addObject:sectionItem.text];
-            }
-        }
-        item.value = results;
-    };
-    
-    void (^addItem)(NSString *title) = ^(NSString *title) {
+    for (GZTableViewItem *item in self.options) {
+        
+        NSString *title = item.text;
+        
         UITableViewCellAccessoryType accessoryType = UITableViewCellAccessoryNone;
-        if (!weakSelf.multipleChoice) {
-            if ([title isEqualToString:self.item.detailText])
-                accessoryType = UITableViewCellAccessoryCheckmark;
-        } else {
-            GZOptionItem<NSArray *> * item = weakSelf.item;
+        
+        if (!self.multipleChoice) {
             
-//            GZMultipleChoiceItem * __weak item = (GZMultipleChoiceItem *)weakSelf.item;
-            for (NSString *value in item.value) {
-                if ([value isEqualToString:title]) {
-                    accessoryType = UITableViewCellAccessoryCheckmark;
-                }
+            if ([title isEqualToString:self.item.detailText]) {
+                accessoryType = UITableViewCellAccessoryCheckmark;
+            }
+            
+        } else {
+            
+            GZOptionItem<NSArray *> * item = self.item;
+            
+            if ([item.value containsObject:title]) {
+                accessoryType = UITableViewCellAccessoryCheckmark;
             }
         }
         
+        __typeof (self) __weak weakSelf = self;
         GZTableViewItem *item = [GZTableViewItem
                                  itemWithText:title
                                  selectionHandler:^(GZTableViewItem *selectedItem) {
             
-            UITableViewCell *cell = [weakSelf.tableView cellForRowAtIndexPath:selectedItem.indexPath];
-            
             if (!weakSelf.multipleChoice) {
-                for (NSIndexPath *indexPath in [weakSelf.tableView indexPathsForVisibleRows]) {
-                    UITableViewCell *cell = [weakSelf.tableView cellForRowAtIndexPath:indexPath];
-                    cell.accessoryType = UITableViewCellAccessoryNone;
-                }
-                for (GZTableViewItem *item in weakSelf.mainSection.items) {
-                    item.accessorType = UITableViewCellAccessoryNone;
-                }
+                
+                [weakSelf.mainSection.items makeObjectsPerformSelector:@selector(setAccessorType:)
+                                                            withObject:@(UITableViewCellAccessoryNone)];
                 selectedItem.accessorType = UITableViewCellAccessoryCheckmark;
-                cell.accessoryType = UITableViewCellAccessoryCheckmark;
+                
+                [weakSelf.mainSection reloadSectionWithAnimation:UITableViewRowAnimationNone];
+                
                 weakSelf.item.value = selectedItem.text;
-                if (weakSelf.completionHandler)
+                
+                if (weakSelf.completionHandler) {
                     weakSelf.completionHandler(selectedItem);
+                }
             }
-            else { // Multiple choice item
-                GZOptionItem<NSArray *> * __weak item = weakSelf.item;
-                [weakSelf.tableView deselectRowAtIndexPath:selectedItem.indexPath animated:YES];
+            else { // Multiple choice
+                
+                GZOptionItem<NSArray *> *item = weakSelf.item;
+                
+                [selectedItem deselectRowWithAnimated:YES];
+                
+                NSMutableSet *set = [NSMutableSet setWithArray:item.value];
+                
                 if (selectedItem.accessorType == UITableViewCellAccessoryCheckmark) {
                     selectedItem.accessorType = UITableViewCellAccessoryNone;
-                    cell.accessoryType = UITableViewCellAccessoryNone;
-                    NSMutableArray *items = [[NSMutableArray alloc] init];
-                    for (NSString *val in item.value) {
-                        if (![val isEqualToString:selectedItem.text])
-                            [items addObject:val];
-                    }
-
-                    item.value = items;
-                } else {
-                    selectedItem.accessorType = UITableViewCellAccessoryCheckmark;
-                    cell.accessoryType = UITableViewCellAccessoryCheckmark;
-                    NSMutableArray *items = [[NSMutableArray alloc] initWithArray:item.value];
-                    [items addObject:selectedItem.text];
-                    item.value = items;
-                    refreshItems();
+                    [set removeObject:selectedItem.text];
                 }
-                if (weakSelf.completionHandler)
+                else {
+                    selectedItem.accessorType = UITableViewCellAccessoryCheckmark;
+                    [set addObject:selectedItem.text];
+                }
+                
+                item.value = [set allObjects];
+                
+                [selectedItem reloadRowWithAnimation:UITableViewRowAnimationNone];
+                
+                if (weakSelf.completionHandler) {
                     weakSelf.completionHandler(selectedItem);
+                }
             }
         }];
         
         item.accessorType = accessoryType;
         [self.mainSection addItem:item];
-    };
-    
-    for (GZTableViewItem *item in self.options) {
-        addItem(item.text);
     }
 }
 

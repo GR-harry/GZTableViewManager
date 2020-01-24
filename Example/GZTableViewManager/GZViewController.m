@@ -66,8 +66,8 @@
     }
     
     {
-#warning TODO: 1. GZTableViewOptionsController选择时出现警告。 2. GZOptionItem 和 GZMutilplChoiceItem是否可以用泛型统一. 3. 看看是否有进一步优化的空间.
-        __typeof (&*self) __weak weakSelf = self;
+#warning TODO: 1. GZTableViewOptionsController选择时出现警告。 3. 看看是否有进一步优化的空间.
+        __typeof (self) __weak weakSelf = self;
         GZOptionItem<NSString *> *radioItem = [GZOptionItem itemWithText:@"Radio" value:@"option 4" selectionHandler:^(GZOptionItem *item) {
             [item deselectRowWithAnimated:YES];
             
@@ -84,8 +84,9 @@
                                                        multipleChoice:NO
                                                        completionHandler:^(GZTableViewItem *selectedItem) {
                 
-                [item reloadRowWithAnimation:UITableViewRowAnimationNone];
+                NSLog(@"%@", item.value);
                 [weakSelf.navigationController popViewControllerAnimated:YES];
+                [item reloadRowWithAnimation:UITableViewRowAnimationNone];
             }];
             
             [weakSelf.navigationController pushViewController:optionsVc animated:YES];
@@ -94,7 +95,7 @@
     }
     
     {
-        __typeof (&*self) __weak weakSelf = self;
+        __typeof (self) __weak weakSelf = self;
         GZOptionItem<NSArray *> *radioItem = [GZOptionItem itemWithText:@"Multiple Choice" value:@[@"option 4", @"option 5"] selectionHandler:^(GZOptionItem *item) {
             [item deselectRowWithAnimated:YES];
 
