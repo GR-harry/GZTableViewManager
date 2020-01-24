@@ -122,6 +122,31 @@
         [section addItem:radioItem];
     }
     
+    {
+        GZSegmentedItem *item = [GZSegmentedItem
+                                 itemWithText:@"Segmented"
+                                 segmentedControlTitles:@[@"One", @"Two", @"Three"]
+                                 value:0
+                                 switchValueChangeHandler:^(GZSegmentedItem *item) {
+            NSLog(@"Value: %li", (long)item.value);
+        }];
+        [section addItem:item];
+    }
+    
+    {
+        GZSegmentedItem *item = [GZSegmentedItem
+                                 itemWithText:nil
+                                 segmentedControlImages:@[[UIImage imageNamed:@"Heart"], [UIImage imageNamed:@"Heart_Highlighted"]]
+                                 value:0
+                                 switchValueChangeHandler:^(GZSegmentedItem *item) {
+            NSLog(@"Value: %li", (long)item.value);
+        }];
+        
+        item.tintColor = [UIColor clearColor];
+        
+        [section addItem:item];
+    }
+    
     [self.tableView reloadData];
 }
 

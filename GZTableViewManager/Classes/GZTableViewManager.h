@@ -46,6 +46,9 @@
 #import "GZOptionItem.h"
 #import "GZTableViewOptionCell.h"
 
+#import "GZSegmentedItem.h"
+#import "GZTableViewSegmentedCell.h"
+
 @protocol GZTableViewManagerDelegate;
 
 @interface GZTableViewManager : NSObject

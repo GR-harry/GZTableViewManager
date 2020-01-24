@@ -79,7 +79,8 @@
     self[NSStringFromClass(GZInlinePickerItem.class)]       = NSStringFromClass(GZTableViewInlinePickerCell.class);
     self[NSStringFromClass(GZDatePickerItem.class)]         = NSStringFromClass(GZTableViewDatePickerCell.class);
     self[NSStringFromClass(GZInlineDatePickerItem.class)]   = NSStringFromClass(GZTableViewInlineDatePickerCell.class);
-    self[NSStringFromClass(GZOptionItem.class)]              = NSStringFromClass(GZTableViewOptionCell.class);
+    self[NSStringFromClass(GZOptionItem.class)]             = NSStringFromClass(GZTableViewOptionCell.class);
+    self[NSStringFromClass(GZSegmentedItem.class)]          = NSStringFromClass(GZTableViewSegmentedCell.class);
 }
 
 #pragma mark - UITableViewDataSource
