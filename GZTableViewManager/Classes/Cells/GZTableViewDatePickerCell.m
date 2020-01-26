@@ -35,6 +35,7 @@
     self.textField              = [[UITextField alloc] initWithFrame:CGRectZero];
     self.textField.delegate     = self;
     self.textField.inputView    = self.datePicker;
+    self.textField.inputAccessoryView = self.actionBar;
     [self.contentView addSubview:self.textField];
     
     self.dateFormatter          = [[NSDateFormatter alloc] init];

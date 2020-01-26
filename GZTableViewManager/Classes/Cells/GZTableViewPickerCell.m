@@ -34,6 +34,7 @@
     self.textFieldWithBlank             = [[UITextField alloc] initWithFrame:CGRectZero];
     self.textFieldWithBlank.delegate    = self;
     self.textFieldWithBlank.inputView   = self.pickerView;
+    self.textFieldWithBlank.inputAccessoryView = self.actionBar;
     [self.contentView addSubview:self.textFieldWithBlank];
 }
 

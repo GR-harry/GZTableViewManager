@@ -7,14 +7,37 @@
 
 #import "GZActionBar.h"
 
+@interface GZActionBar ()
+
+@end
+
 @implementation GZActionBar
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame {
+    
+    if (self = [super initWithFrame:frame]) {
+        
+        UIBarButtonItem *doneButton = [[UIBarButtonItem alloc]
+                                       initWithBarButtonSystemItem:UIBarButtonSystemItemDone
+                                       target:self
+                                       action:@selector(handleActionBarDone:)];
+        
+        UIBarButtonItem *flexible   = [[UIBarButtonItem alloc]
+                                       initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
+                                       target:nil
+                                       action:nil];
+        
+        [self setItems:[NSArray arrayWithObjects:flexible, doneButton, nil]];
+    }
+    
+    return self;
 }
-*/
+
+- (void)handleActionBarDone:(UIBarButtonItem *)doneButtonItem
+{
+    if ([self.actionBarDelegate respondsToSelector:@selector(actionBar:doneButtonPressed:)]) {
+        [self.actionBarDelegate actionBar:self doneButtonPressed:doneButtonItem];
+    }
+}
 
 @end

@@ -1,6 +1,6 @@
 {
   "name": "GZTableViewManager",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "GZTableViewManager.",
   "description": "GZTableViewManager 是用于tableView管理的数据类",
   "homepage": "https://gitee.com/grxm/GZTableViewManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@gitee.com:grxm/GZTableViewManager.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

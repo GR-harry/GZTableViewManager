@@ -39,6 +39,7 @@
 #import "GZSegmentedItem.h"
 #import "GZTextItem.h"
 #import "Plan.h"
+#import "GZActionBar.h"
 #import "GZNumberFormatTextField.h"
 #import "GZPlaceholderTextView.h"
 #import "GZTableViewOptionsController.h"

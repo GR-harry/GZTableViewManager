@@ -1,5 +1,5 @@
 PODS:
-  - GZTableViewManager (0.1.0)
+  - GZTableViewManager (0.2.0)
 
 DEPENDENCIES:
   - GZTableViewManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GZTableViewManager: 3d9cf55d2ec547311a321ccfd8f3224905461cd7
+  GZTableViewManager: fe826a3a1ae18c545c8bf541bff3e61a8855ef1e
 
 PODFILE CHECKSUM: b712b2638326298b691b9787532ad90e4001750b
 

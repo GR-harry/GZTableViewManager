@@ -22,8 +22,9 @@
 - (void)cellDidLoad {
     [super cellDidLoad];
     
-    self.textField          = [[UITextField alloc] initWithFrame:CGRectZero];
-    self.textField.delegate = self;
+    self.textField                          = [[UITextField alloc] initWithFrame:CGRectZero];
+    self.textField.delegate                 = self;
+    self.textField.inputAccessoryView       = self.actionBar;
     [self.textField addTarget:self action:@selector(textDidChanged:) forControlEvents:UIControlEventEditingChanged];
     
     [self.contentView addSubview:self.textField];

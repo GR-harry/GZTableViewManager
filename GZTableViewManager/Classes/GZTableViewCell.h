@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GZActionBar.h"
 
 typedef NS_ENUM(NSUInteger, GZTableViewCellType) {
     GZTableViewCellTypeAny,
@@ -58,3 +59,8 @@ typedef NS_ENUM(NSUInteger, GZTableViewCellType) {
 
 @end
 
+@interface GZTableViewCell (ActionBar)
+
+@property (readonly) GZActionBar *actionBar;
+
+@end

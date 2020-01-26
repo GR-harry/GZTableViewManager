@@ -10,10 +10,11 @@
 #import "GZTableViewSection.h"
 #import "GZTableViewItem.h"
 
-@interface GZTableViewCell ()
+@interface GZTableViewCell () <GZActionBarDelegate>
 
 @property (assign, nonatomic) BOOL loaded;
 @property (assign, nonatomic) BOOL enabled;
+@property (strong, nonatomic) GZActionBar *actionBar;
 
 @end
 
@@ -64,7 +65,14 @@
 @implementation GZTableViewCell (Override)
 
 - (void)cellDidLoad {
+    
     self.loaded = YES;
+    
+    CGFloat width   = CGRectGetWidth(self.contentView.frame);
+    CGFloat height  = 35.f;
+    
+    self.actionBar = [[GZActionBar alloc] initWithFrame:CGRectMake(0, 0, width, height)];
+    self.actionBar.actionBarDelegate = self;
 }
 
 - (void)cellWillAppear {
@@ -155,6 +163,15 @@
     }
     
     return frame;
+}
+
+@end
+
+@implementation GZTableViewCell (ActionBar)
+
+- (void)actionBar:(GZActionBar *)actionBar doneButtonPressed:(UIBarButtonItem *)doneButtonItem {
+    
+    [self endEditing:YES];
 }
 
 @end

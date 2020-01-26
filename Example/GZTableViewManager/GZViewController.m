@@ -151,7 +151,7 @@
         };
         
         [section addItem:item];
-    }
+    }		
 }
 
 - (void)setupGeneralSectionAndItems {
@@ -199,7 +199,7 @@
             NSLog(@"Select is %@", item.value);
         }];
         
-        item.inlinePicker = YES;
+//        item.inlinePicker = YES;
         
         [section addItem:item];
     }

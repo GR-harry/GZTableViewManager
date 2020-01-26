@@ -7,10 +7,18 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
+@class GZActionBar;
 
-@interface GZActionBar : UIToolbar
+@protocol GZActionBarDelegate <NSObject>
+
+@optional
+- (void)actionBar:(GZActionBar *)actionBar doneButtonPressed:(UIBarButtonItem *)doneButtonItem;
 
 @end
 
-NS_ASSUME_NONNULL_END
+@interface GZActionBar : UIToolbar
+
+@property (weak, nonatomic) id<GZActionBarDelegate> actionBarDelegate;
+
+@end
+

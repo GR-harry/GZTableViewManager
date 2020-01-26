@@ -32,8 +32,9 @@
 - (void)cellDidLoad {
     [super cellDidLoad];
     
-    self.textView           = [[GZPlaceholderTextView alloc] init];
-    self.textView.delegate  = self;
+    self.textView                       = [[GZPlaceholderTextView alloc] init];
+    self.textView.delegate              = self;
+    self.textView.inputAccessoryView    = self.actionBar;
     [self.contentView addSubview:self.textView];
 }
 
