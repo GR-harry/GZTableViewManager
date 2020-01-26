@@ -35,7 +35,9 @@
 
 @property (readonly) NSIndexPath *indexPath;
 
-// Eiditing
+/**
+Eiditing
+*/
 @property (assign, nonatomic)   UITableViewCellEditingStyle editingStyle; // Default UITableViewCellEditingStyleDelete
 @property (assign, nonatomic)   BOOL shouldIndentWhileEditing; // Default YES
 @property (copy, nonatomic)     void (^deleteWithOperateHandler)(GZTableViewItem *item, void (^)(void));
@@ -44,6 +46,12 @@
 //@property (copy, nonatomic)     void (^moveWithOperateHandler)(GZTableViewItem *item);
 @property (copy, nonatomic)     void (^moveHandler)(GZTableViewItem *item, NSIndexPath *sourecIndexPath, NSIndexPath *destinationIndexPath);
 
+/**
+ Copy / Paste
+ */
+@property (copy, nonatomic) void (^cutHandler)(GZTableViewItem *item);
+@property (copy, nonatomic) void (^copyHandler)(GZTableViewItem * item);
+@property (copy, nonatomic) void (^pasteHandler)(GZTableViewItem * item);
 
 + (instancetype)item;
 + (instancetype)itemWithText:(NSString *)text;

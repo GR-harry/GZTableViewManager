@@ -23,16 +23,77 @@
     [super viewDidLoad];
     
     self.tableView                  = [[UITableView alloc] initWithFrame:self.view.bounds
-                                                  style:UITableViewStylePlain];
+                                                  style:UITableViewStyleGrouped];
     self.tableView.tableFooterView  = [[UIView alloc] init];
     [self.view addSubview:self.tableView];
     
     self.tableViewManager = [[GZTableViewManager alloc] initWithTableView:self.tableView];
     
-    [self setupItems];
+    [self setupGeneralSectionAndItems];
+    
+    [self setupCopySectionAndItems];
+    
+    [self.tableView reloadData];
 }
 
-- (void)setupItems {
+- (void)setupCopySectionAndItems {
+    
+    GZTableViewSection *section = [GZTableViewSection sectionWithHeaderTitle:@"Copy / pasting"
+                                                                 footerTitle:@"This section holds items that support copy and pasting. You can tap on an item to copy it, while you can tap on another one to paste it."];
+    [self.tableViewManager addSection:section];
+    
+    {
+        GZTableViewItem *item = [GZTableViewItem itemWithText:@"Long tap to copy this item"
+                                             selectionHandler:^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        }];
+        
+        item.copyHandler = ^(GZTableViewItem *item) {
+            
+            [UIPasteboard generalPasteboard].string = @"Copied item #1";
+        };
+        
+        [section addItem:item];
+    }
+    
+    {
+        GZTableViewItem *item = [GZTableViewItem itemWithText:@"Long tap to paste into this item"
+                                             selectionHandler:^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        }];
+        
+        item.pasteHandler = ^(GZTableViewItem *item) {
+            item.text = [UIPasteboard generalPasteboard].string;
+            [item reloadRowWithAnimation:UITableViewRowAnimationAutomatic];
+        };
+        
+        [section addItem:item];
+    }
+    
+    {
+        GZTableViewItem *item = [GZTableViewItem itemWithText:@"Long tap to cut / copy / paste"
+                                             selectionHandler:^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        }];
+        
+        item.copyHandler = ^(GZTableViewItem *item) {
+            [UIPasteboard generalPasteboard].string = @"Copied item #3";
+        };
+        item.pasteHandler = ^(GZTableViewItem *item) {
+            item.text = [UIPasteboard generalPasteboard].string;
+            [item reloadRowWithAnimation:UITableViewRowAnimationAutomatic];
+        };
+        item.cutHandler = ^(GZTableViewItem *item) {
+            item.text = @"(Empty)";
+            [UIPasteboard generalPasteboard].string = @"Copied item #3";
+            [item reloadRowWithAnimation:UITableViewRowAnimationAutomatic];
+        };
+        
+        [section addItem:item];
+    }
+}
+
+- (void)setupGeneralSectionAndItems {
     
     GZTableViewSection *section = [GZTableViewSection section];
     [self.tableViewManager addSection:section];
@@ -66,7 +127,7 @@
     }
     
     {
-#warning TODO: 1. GZTableViewOptionsController选择时出现警告。 3. 看看是否有进一步优化的空间.
+#warning TODO: 1. GZTableViewOptionsController选择时出现警告。
         __typeof (self) __weak weakSelf = self;
         GZOptionItem<NSString *> *radioItem = [GZOptionItem itemWithText:@"Radio" value:@"option 4" selectionHandler:^(GZOptionItem *item) {
             [item deselectRowWithAnimated:YES];
@@ -146,8 +207,6 @@
         
         [section addItem:item];
     }
-    
-    [self.tableView reloadData];
 }
 
 @end

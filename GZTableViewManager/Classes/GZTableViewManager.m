@@ -606,6 +606,56 @@
     }
 }
 
+// Copy/Paste.  All three methods must be implemented by the delegate.
+
+- (BOOL)tableView:(UITableView *)tableView shouldShowMenuForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    GZTableViewSection *section = self.sections[indexPath.section];
+    GZTableViewItem *item       = section.items[indexPath.row];
+    
+    if (item.copyHandler || item.pasteHandler) {
+        return YES;
+    }
+    
+    return NO;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canPerformAction:(SEL)action forRowAtIndexPath:(NSIndexPath *)indexPath withSender:(id)sender {
+    
+    GZTableViewSection *section = self.sections[indexPath.section];
+    GZTableViewItem *item       = section.items[indexPath.row];
+    
+    if (item.copyHandler && action == @selector(copy:)) {
+        return YES;
+    }
+    else if (item.pasteHandler && action == @selector(paste:)) {
+        return YES;
+    }
+    else if (item.cutHandler && action == @selector(cut:)) {
+        return YES;
+    }
+    
+    return NO;
+}
+
+- (void)tableView:(UITableView *)tableView performAction:(SEL)action forRowAtIndexPath:(NSIndexPath *)indexPath withSender:(id)sender {
+    
+    GZTableViewSection *section = self.sections[indexPath.section];
+    GZTableViewItem *item       = section.items[indexPath.row];
+    
+    if (item.copyHandler && action == @selector(copy:)) {
+        item.copyHandler(item);
+    }
+    
+    if (item.pasteHandler && action == @selector(paste:)) {
+        item.pasteHandler(item);
+    }
+    
+    if (item.cutHandler && action == @selector(cut:)) {
+        item.cutHandler(item);
+    }
+}
+
 @end
 
 @implementation GZTableViewManager (Editing)
