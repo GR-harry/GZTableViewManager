@@ -161,10 +161,58 @@
     
     __typeof (self) __weak weakSelf = self;
     {
-        GZTableViewItem *item = @"Simple Text.".tableViewItem;
+        GZTableViewItem *item = @"Value1 cell style".tableViewItem;
         item.selectionHandler = ^(GZTableViewItem *item) {
             [item deselectRowWithAnimated:YES];
         };
+        item.detailText = @"detail";
+        item.height     = UITableViewAutomaticDimension;
+        item.cellStyle  = UITableViewCellStyleValue1;
+        [section addItem:item];
+    }
+    
+    {
+        GZTableViewItem *item = @"Value2 cell style".tableViewItem;
+        item.selectionHandler = ^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        };
+        item.detailText = @"detail";
+        item.height     = UITableViewAutomaticDimension;
+        item.cellStyle  = UITableViewCellStyleValue2;
+        [section addItem:item];
+    }
+    
+    {
+        GZTableViewItem *item = @"Default cell style".tableViewItem;
+        item.selectionHandler = ^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        };
+        item.detailText = @"detail";
+        item.height     = UITableViewAutomaticDimension;
+        item.cellStyle  = UITableViewCellStyleDefault;
+        [section addItem:item];
+    }
+    
+    {
+        GZTableViewItem *item = @"Subtitle cell style".tableViewItem;
+        item.selectionHandler = ^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        };
+        
+        item.detailText = @"detail";
+        item.cellStyle  = UITableViewCellStyleSubtitle;
+        [section addItem:item];
+    }
+    
+    {
+        GZTableViewItem *item = @"Image and Text".tableViewItem;
+        item.selectionHandler = ^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        };
+        
+        item.image          = [UIImage imageNamed:@"Heart"];
+        item.highlightImage = [UIImage imageNamed:@"Heart_Highlighted"];
+        
         [section addItem:item];
     }
     
@@ -176,7 +224,7 @@
     }
     
     {
-        GZFloatItem *item = [GZFloatItem itemWithText:@"Float Item" value:0.1 valueChangedHandler:^(GZFloatItem *item) {
+        GZFloatItem *item = [GZFloatItem itemWithText:@"Float Item" value:50 valueChangedHandler:^(GZFloatItem *item) {
             NSLog(@"Track value is %lf", item.value);
         }];
         

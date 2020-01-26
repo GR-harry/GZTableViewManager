@@ -107,7 +107,7 @@
 
 - (void)enableDidChanged:(BOOL)enabled {
     
-     self.userInteractionEnabled = enabled;
+    self.userInteractionEnabled = enabled;
     
     self.textLabel.enabled       = enabled;
     self.detailTextLabel.enabled = enabled;

@@ -221,7 +221,11 @@
 {
     GZTableViewSection *section = self.mutableSections[indexPath.section];
     GZTableViewItem *item = section.items[indexPath.row];
-
+    
+    if (item.height == UITableViewAutomaticDimension) {
+        return 44.f;
+    }
+    
     return [[self cellForClassAtIndexPath:indexPath] heightWithItem:item tableViewManager:self];
 }
 
