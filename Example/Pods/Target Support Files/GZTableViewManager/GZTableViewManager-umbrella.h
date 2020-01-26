@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GZTableViewAdaptiveHeightTextCell.h"
 #import "GZTableViewBoolCell.h"
 #import "GZTableViewDatePickerCell.h"
 #import "GZTableViewFloatCell.h"
@@ -27,6 +28,7 @@
 #import "GZTableViewItem.h"
 #import "GZTableViewManager.h"
 #import "GZTableViewSection.h"
+#import "GZAdaptiveHeightTextItem.h"
 #import "GZBoolItem.h"
 #import "GZDatePickerItem.h"
 #import "GZFloatItem.h"

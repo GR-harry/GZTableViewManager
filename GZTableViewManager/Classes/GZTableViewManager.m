@@ -81,6 +81,7 @@
     self[NSStringFromClass(GZInlineDatePickerItem.class)]   = NSStringFromClass(GZTableViewInlineDatePickerCell.class);
     self[NSStringFromClass(GZOptionItem.class)]             = NSStringFromClass(GZTableViewOptionCell.class);
     self[NSStringFromClass(GZSegmentedItem.class)]          = NSStringFromClass(GZTableViewSegmentedCell.class);
+    self[NSStringFromClass(GZAdaptiveHeightTextItem.class)] = NSStringFromClass(GZTableViewAdaptiveHeightTextCell.class);
 }
 
 #pragma mark - UITableViewDataSource
@@ -152,8 +153,8 @@
     cell.item               = item;
     cell.indexPath          = indexPath;
 
-    cell.textLabel.text = item.text.length ? item.text : nil;
-    cell.detailTextLabel.text = item.detailText.length ? item.detailText : nil;
+//    cell.textLabel.text = item.text.length ? item.text : nil;
+//    cell.detailTextLabel.text = item.detailText.length ? item.detailText : nil;
 
     [cell cellWillAppear];
 

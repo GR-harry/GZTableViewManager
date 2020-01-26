@@ -23,7 +23,7 @@
     [super viewDidLoad];
     
     self.tableView                  = [[UITableView alloc] initWithFrame:self.view.bounds
-                                                  style:UITableViewStyleGrouped];
+                                                                   style:UITableViewStyleGrouped];
     self.tableView.tableFooterView  = [[UIView alloc] init];
     [self.view addSubview:self.tableView];
     
@@ -205,6 +205,18 @@
     }
     
     {
+        GZAdaptiveHeightTextItem *item = [GZAdaptiveHeightTextItem itemWithText:@"Adaptive Height"];
+        
+        item.selectionHandler = ^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        };
+        
+        item.detailText = @"Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text";
+//        item.cellStyle  = UITableViewCellStyleValue1;
+        [section addItem:item];
+    }
+    
+    {
         GZTableViewItem *item = @"Image and Text".tableViewItem;
         item.selectionHandler = ^(GZTableViewItem *item) {
             [item deselectRowWithAnimated:YES];
@@ -215,6 +227,7 @@
         
         [section addItem:item];
     }
+    
     
     {
         GZBoolItem *item = [GZBoolItem itemWithText:@"Bool Item" on:YES swithValueChangedHandler:^(GZBoolItem *item) {

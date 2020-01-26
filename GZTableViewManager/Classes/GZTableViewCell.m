@@ -9,11 +9,11 @@
 #import "GZTableViewCell.h"
 #import "GZTableViewSection.h"
 #import "GZTableViewItem.h"
+#import "GZTableViewCell+Private.h"
 
 @interface GZTableViewCell () <GZActionBarDelegate>
 
 @property (assign, nonatomic) BOOL loaded;
-@property (assign, nonatomic) BOOL enabled;
 @property (strong, nonatomic) GZActionBar *actionBar;
 
 @end

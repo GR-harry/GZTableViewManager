@@ -49,6 +49,9 @@
 #import "GZSegmentedItem.h"
 #import "GZTableViewSegmentedCell.h"
 
+#import "GZAdaptiveHeightTextItem.h"
+#import "GZTableViewAdaptiveHeightTextCell.h"
+
 @protocol GZTableViewManagerDelegate;
 
 @interface GZTableViewManager : NSObject
