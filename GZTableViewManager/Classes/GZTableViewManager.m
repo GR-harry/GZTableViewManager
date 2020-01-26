@@ -239,18 +239,24 @@
     }
     
     if (section.headerView) {
+        
         CGFloat height = section.headerView.frame.size.height;
         return height ? : UITableViewAutomaticDimension;
     }
     else if (section.headerTitle.length) {
-        CGFloat headerWidth = CGRectGetWidth(tableView.frame) - 2 * 20;
+        
+        if (self.tableView.style == UITableViewStylePlain) {
+            return 22.f;
+        }
+        
+        CGFloat width   = CGRectGetWidth(tableView.frame) - 2 * 20;
 
-        CGSize size = [section.headerTitle
-                       boundingRectWithSize:CGSizeMake(headerWidth, GZTableViewSectionHeaderHeightAutomatic)
-                                    options:(NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading)
-                                 attributes:@{ NSFontAttributeName: [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline] }
-                                    context:nil].size;
-        return size.height + 20;
+        CGSize size = [section.headerTitle boundingRectWithSize:CGSizeMake(width, GZTableViewSectionFooterHeightAutomatic)
+                                                        options:(NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading)
+                                                     attributes:@{ NSFontAttributeName: [UIFont preferredFontForTextStyle:UIFontTextStyleFootnote] }
+                                                        context:nil].size;
+                       
+        return size.height + 10;
     }
 
     return 0.01f;
@@ -282,19 +288,26 @@
     }
 
     if (section.footerView) {
+        
         CGFloat height = section.footerView.frame.size.height;
         return height ? : UITableViewAutomaticDimension;
     }
 
     if (section.footerTitle.length) {
-        CGFloat headerWidth = CGRectGetWidth(tableView.frame) - 2 * 20;
+        
+        if (self.tableView.style == UITableViewStylePlain) {
+            return 22.f;
+        }
 
-        CGSize size = [section.footerTitle
-                       boundingRectWithSize:CGSizeMake(headerWidth, GZTableViewSectionFooterHeightAutomatic)
-                                    options:(NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading)
-                                 attributes:@{ NSFontAttributeName: [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline] }
-                                    context:nil].size;
-        return size.height + 20;
+        
+        CGFloat width   = CGRectGetWidth(tableView.frame) - 2 * 20;
+
+        CGSize size = [section.footerTitle boundingRectWithSize:CGSizeMake(width, GZTableViewSectionFooterHeightAutomatic)
+                                                        options:(NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading)
+                                                     attributes:@{ NSFontAttributeName: [UIFont preferredFontForTextStyle:UIFontTextStyleFootnote] }
+                                                        context:nil].size;
+                       
+        return size.height + 10;
     }
 
     return 0.01f;
