@@ -30,10 +30,71 @@
     self.tableViewManager = [[GZTableViewManager alloc] initWithTableView:self.tableView];
     
     [self setupGeneralSectionAndItems];
-    
     [self setupCopySectionAndItems];
+    [self setupAccessoriesSecionAndItems];
     
     [self.tableView reloadData];
+}
+
+- (void)setupAccessoriesSecionAndItems {
+    
+    GZTableViewSection *section = [GZTableViewSection sectionWithHeaderTitle:@"Accessories"
+                                                                 footerTitle:@"This section holds items with accessories."];
+    [self.tableViewManager addSection:section];
+    
+    {
+        GZTableViewItem *item = [GZTableViewItem itemWithText:@"Accessory 1" selectionHandler:^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        }];
+        
+        item.accessorType = UITableViewCellAccessoryDisclosureIndicator;
+        
+        [section addItem:item];
+    }
+    
+    {
+        GZTableViewItem *item = [GZTableViewItem itemWithText:@"Accessory 2" selectionHandler:^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        }];
+        
+        
+        item.accessoryButtonTapHandler = ^(GZTableViewItem *item) {
+            NSLog(@"Accessory button in accessoryItem2 was tapped");
+        };
+        
+        item.accessorType = UITableViewCellAccessoryDetailDisclosureButton;
+        
+        [section addItem:item];
+    }
+    
+    
+    {
+        GZTableViewItem *item = [GZTableViewItem itemWithText:@"Accessory 3" selectionHandler:^(GZTableViewItem *item) {
+            [item deselectRowWithAnimated:YES];
+        }];
+        
+        
+        item.accessoryButtonTapHandler = ^(GZTableViewItem *item) {
+            NSLog(@"Accessory button in accessoryItem3 was tapped");
+        };
+        
+        item.accessorType = UITableViewCellAccessoryDetailButton;
+        
+        [section addItem:item];
+    }
+    
+    {
+        GZTableViewItem *item = [GZTableViewItem itemWithText:@"Accessory 4" selectionHandler:^(GZTableViewItem *item) {
+            
+            item.accessorType = (item.accessorType == UITableViewCellAccessoryCheckmark ? UITableViewCellAccessoryNone : UITableViewCellAccessoryCheckmark);
+            
+            [item reloadRowWithAnimation:UITableViewRowAnimationNone];
+        }];
+        
+        item.accessorType = UITableViewCellAccessoryCheckmark;
+        
+        [section addItem:item];
+    }
 }
 
 - (void)setupCopySectionAndItems {
@@ -98,37 +159,68 @@
     GZTableViewSection *section = [GZTableViewSection section];
     [self.tableViewManager addSection:section];
     
-    
+    __typeof (self) __weak weakSelf = self;
     {
-        GZTableViewItem *item = @"Common".tableViewItem;
+        GZTableViewItem *item = @"Simple Text.".tableViewItem;
         item.selectionHandler = ^(GZTableViewItem *item) {
             [item deselectRowWithAnimated:YES];
-            NSLog(@"common");
         };
         [section addItem:item];
     }
     
     {
-        GZTableViewItem *item = @"Custom".tableViewItem;
-        item.selectionHandler = ^(GZTableViewItem *item) {
-            [item deselectRowWithAnimated:YES];
-            NSLog(@"Custom");
-        };
+        GZBoolItem *item = [GZBoolItem itemWithText:@"Bool Item" on:YES swithValueChangedHandler:^(GZBoolItem *item) {
+            NSLog(@"Switch state is %@", item.on ? @"ON" : @"OFF");
+        }];
         [section addItem:item];
     }
     
     {
-        GZTableViewItem *item = @"Eidt".tableViewItem;
-        item.selectionHandler = ^(GZTableViewItem *item) {
-            [item deselectRowWithAnimated:YES];
-            NSLog(@"Eidt");
-        };
+        GZFloatItem *item = [GZFloatItem itemWithText:@"Float Item" value:0.1 valueChangedHandler:^(GZFloatItem *item) {
+            NSLog(@"Track value is %lf", item.value);
+        }];
+        
+        item.valueRange = NSMakeRange(0, 100);
+        
+        [section addItem:item];
+    }
+    
+    {
+        GZPickerItem *item = [GZPickerItem itemWithText:@"Picker" value:@[@"Single"] options:@[@[@"Single", @"Mutil"]] stringWithValueComponentsHandler:^NSString *(NSArray<id<GZPickerItemRow>> *value) {
+            
+            NSMutableString *string = [NSMutableString string];
+            
+            for (id<GZPickerItemRow> row in value) {
+                [string appendFormat:@"%@|", row.title];
+            }
+            
+            return string.copy;
+        } valueDidChangedHandler:^(GZPickerItem *item) {
+            NSLog(@"Select is %@", item.value);
+        }];
+        
+        item.inlinePicker = YES;
+        
+        [section addItem:item];
+    }
+    
+    {
+        NSDate *date = [NSDate dateWithTimeIntervalSinceNow:- 10 * 24 * 3600];
+        
+        GZDatePickerItem *item = [GZDatePickerItem itemWithText:@"Date" value:date dateFormat:@"YYYY-MM-dd hh:mm:ss" placeholder:@"xxx" onChange:^(GZDatePickerItem *item) {
+            NSLog(@"Select date is %@", item.value);
+            [weakSelf.view endEditing:YES];
+        }];
+        
+        item.datePickerMode = UIDatePickerModeDate;
+        
+        item.inlineDatePicker = YES;
+        
         [section addItem:item];
     }
     
     {
 #warning TODO: 1. GZTableViewOptionsController选择时出现警告。
-        __typeof (self) __weak weakSelf = self;
         GZOptionItem<NSString *> *radioItem = [GZOptionItem itemWithText:@"Radio" value:@"option 4" selectionHandler:^(GZOptionItem *item) {
             [item deselectRowWithAnimated:YES];
             
