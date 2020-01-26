@@ -7,7 +7,6 @@
 //
 
 #import "GZTableViewBoolCell.h"
-#import "GZBoolItem.h"
 
 @interface GZTableViewBoolCell ()
 
@@ -16,6 +15,8 @@
 @end
 
 @implementation GZTableViewBoolCell
+
+@synthesize item = _item;
 
 - (void)enableDidChanged:(BOOL)enabled {
     

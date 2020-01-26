@@ -19,6 +19,43 @@
 
 @implementation GZTableViewCell
 
+- (GZTableViewCellType)cellType {
+    NSUInteger rowIndex     = self.indexPath.row;
+    NSUInteger itemCount    = self.section.items.count;
+    
+    if (rowIndex == 0 && itemCount == 1) {
+        return GZTableViewCellTypeSingle;
+    }
+    else if (rowIndex == 0 && itemCount > 1) {
+        return GZTableViewCellTypeFirst;
+    }
+    else if (rowIndex > 0 && rowIndex < itemCount - 1 && itemCount > 2) {
+        return GZTableViewCellTypeMiddle;
+    }
+    else if (rowIndex == itemCount - 1 && itemCount > 1) {
+        return GZTableViewCellTypeLast;
+    }
+    
+    return GZTableViewCellTypeAny;
+}
+
+- (void)setEnabled:(BOOL)enabled {
+    
+    _enabled = enabled;
+    
+    [self enableDidChanged:enabled];
+}
+
+- (void)setItem:(GZTableViewItem *)item {
+    
+    if (_item) {
+        [_item removeObserver:self forKeyPath:@"enabled"];
+    }
+    
+    _item = item;
+    
+    [_item addObserver:self forKeyPath:@"enabled" options:NSKeyValueObservingOptionNew context:NULL];
+}
 
 
 @end
@@ -54,25 +91,7 @@
     
 }
 
-- (GZTableViewCellType)cellType {
-    NSUInteger rowIndex     = self.indexPath.row;
-    NSUInteger itemCount    = self.section.items.count;
-    
-    if (rowIndex == 0 && itemCount == 1) {
-        return GZTableViewCellTypeSingle;
-    }
-    else if (rowIndex == 0 && itemCount > 1) {
-        return GZTableViewCellTypeFirst;
-    }
-    else if (rowIndex > 0 && rowIndex < itemCount - 1 && itemCount > 2) {
-        return GZTableViewCellTypeMiddle;
-    }
-    else if (rowIndex == itemCount - 1 && itemCount > 1) {
-        return GZTableViewCellTypeLast;
-    }
-    
-    return GZTableViewCellTypeAny;
-}
+
 
 + (CGFloat)heightWithItem:(GZTableViewItem *)item tableViewManager:(GZTableViewManager *)tableViewManager {
     return item.height ? item.height : 44;
@@ -85,25 +104,6 @@
     self.textLabel.enabled       = enabled;
     self.detailTextLabel.enabled = enabled;
 }
-
-- (void)setEnabled:(BOOL)enabled {
-    
-    _enabled = enabled;
-    
-    [self enableDidChanged:enabled];
-}
-
-- (void)setItem:(GZTableViewItem *)item {
-    
-    if (_item) {
-        [_item removeObserver:self forKeyPath:@"enabled"];
-    }
-    
-    _item = item;
-    
-    [_item addObserver:self forKeyPath:@"enabled" options:NSKeyValueObservingOptionNew context:NULL];
-}
-
 
 - (void)dealloc {
     [self.item removeObserver:self forKeyPath:@"enabled"];

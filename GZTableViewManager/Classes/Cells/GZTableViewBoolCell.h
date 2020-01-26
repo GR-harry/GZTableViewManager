@@ -7,8 +7,8 @@
 //
 
 #import "GZTableViewCell.h"
+#import "GZBoolItem.h"
 
-@class GZBoolItem;
 @interface GZTableViewBoolCell : GZTableViewCell
 
 @property (nonatomic, strong) GZBoolItem *item;

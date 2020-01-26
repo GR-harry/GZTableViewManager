@@ -7,7 +7,6 @@
 //
 
 #import "GZTableViewPickerCell.h"
-#import "GZPickerItem.h"
 #import "GZTableViewManager.h"
 #import "GZInlinePickerItem.h"
 #import "GZTableViewSection.h"
@@ -22,6 +21,8 @@
 @end
 
 @implementation GZTableViewPickerCell
+
+@synthesize item = _item;
 
 - (void)cellDidLoad {
     [super cellDidLoad];

@@ -7,8 +7,8 @@
 //
 
 #import "GZTableViewCell.h"
+#import "GZLongTextItem.h"
 
-@class GZLongTextItem;
 @interface GZTableViewLongTextCell : GZTableViewCell
 
 @property (strong, nonatomic) GZLongTextItem *item;

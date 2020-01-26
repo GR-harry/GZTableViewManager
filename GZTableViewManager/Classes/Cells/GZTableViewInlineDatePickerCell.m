@@ -7,7 +7,6 @@
 //
 
 #import "GZTableViewInlineDatePickerCell.h"
-#import "GZInlineDatePickerItem.h"
 
 @interface GZTableViewInlineDatePickerCell ()
 
@@ -17,6 +16,8 @@
 @end
 
 @implementation GZTableViewInlineDatePickerCell
+
+@synthesize item = _item;
 
 #pragma mark - Life Cycle
 - (void)cellDidLoad {

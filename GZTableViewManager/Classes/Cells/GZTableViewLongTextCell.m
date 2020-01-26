@@ -8,7 +8,6 @@
 
 #import "GZTableViewLongTextCell.h"
 #import "GZPlaceholderTextView.h"
-#import "GZLongTextItem.h"
 #import "GZTableViewManager.h"
 
 @interface GZTableViewLongTextCell ()<UITextViewDelegate>
@@ -18,6 +17,8 @@
 @end
 
 @implementation GZTableViewLongTextCell
+
+@synthesize item = _item;
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     

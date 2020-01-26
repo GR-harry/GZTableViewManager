@@ -7,7 +7,6 @@
 //
 
 #import "GZTableViewNumberCell.h"
-#import "GZNumberItem.h"
 #import "GZNumberFormatTextField.h"
 #import "NSString+GZNumberFormat.h"
 #import "GZTableViewManager.h"

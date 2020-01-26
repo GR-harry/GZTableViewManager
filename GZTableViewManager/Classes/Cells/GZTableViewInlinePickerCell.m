@@ -7,7 +7,6 @@
 //
 
 #import "GZTableViewInlinePickerCell.h"
-#import "GZInlinePickerItem.h"
 #import "GZPickerItem.h"
 
 @interface GZTableViewInlinePickerCell ()<UIPickerViewDelegate, UIPickerViewDataSource>
@@ -17,6 +16,8 @@
 @end
 
 @implementation GZTableViewInlinePickerCell
+
+@synthesize item = _item;
 
 - (void)cellDidLoad {
     [super cellDidLoad];

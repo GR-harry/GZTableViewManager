@@ -7,9 +7,8 @@
 //
 
 #import "GZTableViewCell.h"
+#import "GZFloatItem.h"
 
-
-@class GZFloatItem;
 @interface GZTableViewFloatCell : GZTableViewCell
 
 @property (strong, nonatomic) GZFloatItem *item;

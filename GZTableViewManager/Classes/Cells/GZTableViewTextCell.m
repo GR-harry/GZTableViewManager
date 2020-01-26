@@ -7,7 +7,6 @@
 //
 
 #import "GZTableViewTextCell.h"
-#import "GZTextItem.h"
 #import "GZTableViewManager.h"
 
 @interface GZTableViewTextCell ()<UITextFieldDelegate>
@@ -17,6 +16,8 @@
 @end
 
 @implementation GZTableViewTextCell
+
+@synthesize item = _item;
 
 - (void)cellDidLoad {
     [super cellDidLoad];

@@ -7,10 +7,10 @@
 //
 
 #import "GZTableViewCell.h"
+#import "GZInlineDatePickerItem.h"
 
-@class GZInlineDatePickerItem;
 @interface GZTableViewInlineDatePickerCell : GZTableViewCell
 
-@property (weak, nonatomic) GZInlineDatePickerItem *item;
+@property (strong, nonatomic) GZInlineDatePickerItem *item;
 
 @end

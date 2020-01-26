@@ -7,7 +7,6 @@
 //
 
 #import "GZTableViewFloatCell.h"
-#import "GZFloatItem.h"
 
 @interface GZTableViewFloatCell ()
 
@@ -16,6 +15,8 @@
 @end
 
 @implementation GZTableViewFloatCell
+
+@synthesize item = _item;
 
 - (void)enableDidChanged:(BOOL)enabled {
     

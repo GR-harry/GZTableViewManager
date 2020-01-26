@@ -7,10 +7,10 @@
 //
 
 #import "GZTableViewCell.h"
+#import "GZTextItem.h"
 
-@class GZTextItem;
 @interface GZTableViewTextCell : GZTableViewCell
 
-@property (weak, nonatomic) GZTextItem *item;
+@property (strong, nonatomic) GZTextItem *item;
 
 @end

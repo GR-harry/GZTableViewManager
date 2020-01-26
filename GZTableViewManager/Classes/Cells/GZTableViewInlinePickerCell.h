@@ -7,8 +7,8 @@
 //
 
 #import "GZTableViewCell.h"
+#import "GZInlinePickerItem.h"
 
-@class GZInlinePickerItem;
 @interface GZTableViewInlinePickerCell : GZTableViewCell
 
 @property (strong, nonatomic) GZInlinePickerItem *item;

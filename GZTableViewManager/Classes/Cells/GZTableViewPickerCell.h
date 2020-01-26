@@ -7,8 +7,7 @@
 //
 
 #import "GZTableViewCell.h"
-
-@class GZPickerItem;
+#import "GZPickerItem.h"
 
 @interface GZTableViewPickerCell : GZTableViewCell
 
