@@ -16,7 +16,7 @@
 
 @implementation GZTableViewFloatCell
 
-@synthesize item = _item;
+@dynamic item;
 
 - (void)enableDidChanged:(BOOL)enabled {
     

@@ -17,7 +17,7 @@
 
 @implementation GZTableViewTextCell
 
-@synthesize item = _item;
+@dynamic item;
 
 - (void)cellDidLoad {
     [super cellDidLoad];

@@ -17,7 +17,7 @@
 
 @implementation GZTableViewOptionCell
 
-@synthesize item = _item;
+@dynamic item;
 @synthesize enabled = _enabled;
 
 #pragma mark -

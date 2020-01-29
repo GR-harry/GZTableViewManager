@@ -16,7 +16,7 @@
 
 @implementation GZTableViewBoolCell
 
-@synthesize item = _item;
+@dynamic item;
 
 - (void)enableDidChanged:(BOOL)enabled {
     

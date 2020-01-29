@@ -23,7 +23,7 @@
 
 @implementation GZTableViewDatePickerCell
 
-@synthesize item = _item;
+@dynamic item;
 
 #pragma mark - Life Cycle
 - (void)cellDidLoad {

@@ -18,7 +18,7 @@
 
 @implementation GZTableViewLongTextCell
 
-@synthesize item = _item;
+@dynamic item;
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     

@@ -18,7 +18,7 @@
 @end
 
 @implementation GZTableViewNumberCell
-@synthesize item = _item;
+@dynamic item;
 
 #pragma mark - Life cycle
 - (void)cellDidLoad {

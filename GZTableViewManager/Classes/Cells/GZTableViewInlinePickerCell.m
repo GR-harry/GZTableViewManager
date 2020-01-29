@@ -17,7 +17,7 @@
 
 @implementation GZTableViewInlinePickerCell
 
-@synthesize item = _item;
+@dynamic item;
 
 - (void)cellDidLoad {
     [super cellDidLoad];

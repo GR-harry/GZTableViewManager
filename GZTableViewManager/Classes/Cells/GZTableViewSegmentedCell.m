@@ -17,7 +17,7 @@
 
 @implementation GZTableViewSegmentedCell
 
-@synthesize item = _item;
+@dynamic item;
 
 #pragma mark -
 #pragma mark Lifecycle
