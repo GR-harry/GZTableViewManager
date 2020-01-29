@@ -204,6 +204,29 @@
     return section.footerTitle;
 }
 
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+    
+    NSMutableArray *titles = [NSMutableArray array];
+    
+    BOOL hasIndexTitle = NO;
+    for (GZTableViewSection *section in self.mutableSections) {
+        
+        if (section.indexTitle.length > 0) {
+            [titles addObject:section.indexTitle];
+            hasIndexTitle = YES;
+        }
+        else {
+            [titles addObject:@"#"];
+        }
+    }
+    
+    if (hasIndexTitle) {
+        return titles;
+    }
+    
+    return nil;
+}
+
 #pragma mark - UITableViewDelegate
 // Variable height support
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

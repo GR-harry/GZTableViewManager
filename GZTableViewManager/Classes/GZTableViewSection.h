@@ -21,6 +21,7 @@ extern CGFloat const GZTableViewSectionFooterHeightAutomatic;
 
 @property (nonatomic, copy) NSString *headerTitle;
 @property (nonatomic, copy) NSString *footerTitle;
+@property (nonatomic, copy) NSString *indexTitle;
 @property (nonatomic, strong) UIView *headerView;
 @property (nonatomic, strong) UIView *footerView;
 @property (nonatomic, assign) CGFloat headerHeight;

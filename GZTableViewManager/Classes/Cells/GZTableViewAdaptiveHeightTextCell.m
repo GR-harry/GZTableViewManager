@@ -40,6 +40,33 @@
     self.contentLabel = contentLabel;
 }
 
+- (void)cellWillAppear {
+    
+    self.selectionStyle             = self.item.selectionStyle;
+    
+    self.userInteractionEnabled     = self.item.enabled;
+    
+    self.titleLabel.textAlignment   = self.item.textAlignment;
+    self.titleLabel.text            = self.item.text;
+    
+    self.contentLabel.text          = self.item.detailText;
+    
+    self.enabled                    = self.item.enabled;
+    
+    switch (self.item.cellStyle) {
+        case UITableViewCellStyleValue1:
+            self.contentLabel.font = [UIFont systemFontOfSize:15];
+            break;
+        case UITableViewCellStyleSubtitle:
+            self.contentLabel.font = [UIFont systemFontOfSize:13];
+            break;
+        default:
+            break;
+    }
+    
+    [self updateConstraints];
+}
+
 - (void)updateConstraints {
     
     switch (self.item.cellStyle) {
@@ -185,34 +212,6 @@
     
 
     [super updateConstraints];
-}
-
-
-- (void)cellWillAppear {
-    
-    self.selectionStyle             = self.item.selectionStyle;
-    
-    self.userInteractionEnabled     = self.item.enabled;
-    
-    self.titleLabel.textAlignment   = self.item.textAlignment;
-    self.titleLabel.text            = self.item.text;
-    
-    self.contentLabel.text          = self.item.detailText;
-    
-    self.enabled                    = self.item.enabled;
-    
-    switch (self.item.cellStyle) {
-        case UITableViewCellStyleValue1:
-            self.contentLabel.font = [UIFont systemFontOfSize:15];
-            break;
-        case UITableViewCellStyleSubtitle:
-            self.contentLabel.font = [UIFont systemFontOfSize:13];
-            break;
-        default:
-            break;
-    }
-    
-    [self updateConstraints];
 }
 
 @end

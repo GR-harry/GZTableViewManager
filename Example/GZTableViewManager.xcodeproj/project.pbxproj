@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2438954F23E09B8D006DD76E /* GZFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2438954E23E09B8D006DD76E /* GZFormsViewController.m */; };
+		2438955223E1C3C0006DD76E /* GZIndexesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2438955123E1C3C0006DD76E /* GZIndexesViewController.m */; };
 		4E00E6CF973B53252AE1C3DE /* Pods_GZTableViewManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655C1AD2B42A5458AE887A62 /* Pods_GZTableViewManager_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2438954D23E09B8D006DD76E /* GZFormsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GZFormsViewController.h; sourceTree = "<group>"; };
+		2438954E23E09B8D006DD76E /* GZFormsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZFormsViewController.m; sourceTree = "<group>"; };
+		2438955023E1C3C0006DD76E /* GZIndexesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GZIndexesViewController.h; sourceTree = "<group>"; };
+		2438955123E1C3C0006DD76E /* GZIndexesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZIndexesViewController.m; sourceTree = "<group>"; };
 		2F270AEB6F86C481AE125AB1 /* Pods-GZTableViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZTableViewManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GZTableViewManager_Tests/Pods-GZTableViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		405D7F58EFF4A72DAC6E2B06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51FFA4E9A86C3F21A5301A98 /* Pods-GZTableViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZTableViewManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GZTableViewManager_Tests/Pods-GZTableViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +143,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* GZViewController.h */,
 				6003F5A6195388D20070C39A /* GZViewController.m */,
+				2438954D23E09B8D006DD76E /* GZFormsViewController.h */,
+				2438954E23E09B8D006DD76E /* GZFormsViewController.m */,
+				2438955023E1C3C0006DD76E /* GZIndexesViewController.h */,
+				2438955123E1C3C0006DD76E /* GZIndexesViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -357,6 +367,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* GZAppDelegate.m in Sources */,
+				2438954F23E09B8D006DD76E /* GZFormsViewController.m in Sources */,
+				2438955223E1C3C0006DD76E /* GZIndexesViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* GZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
