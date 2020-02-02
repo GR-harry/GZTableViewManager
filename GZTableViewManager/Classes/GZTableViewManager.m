@@ -573,11 +573,30 @@
     }
 }
 
+//- (NSIndexPath *)tableView:(UITableView *)tableView targetIndexPathForMoveFromRowAtIndexPath:(NSIndexPath *)sourceIndexPath toProposedIndexPath:(NSIndexPath *)proposedDestinationIndexPath
+//{
+//    RETableViewSection *sourceSection = self.mutableSections[sourceIndexPath.section];
+//    RETableViewItem *item = sourceSection.items[sourceIndexPath.row];
+//    if (item.moveHandler) {
+//        BOOL allowed = item.moveHandler(item, sourceIndexPath, proposedDestinationIndexPath);
+//        if (!allowed)
+//            return sourceIndexPath;
+//    }
+//
+//    // Forward to UITableView delegate
+//    //
+//    if ([self.delegate conformsToProtocol:@protocol(UITableViewDelegate)] && [self.delegate respondsToSelector:@selector(tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:)])
+//        return [self.delegate tableView:tableView targetIndexPathForMoveFromRowAtIndexPath:sourceIndexPath toProposedIndexPath:proposedDestinationIndexPath];
+    
+//    return sourceIndexPath;
+//}
+
+
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath {
     
     NSParameterAssert(sourceIndexPath.section < self.mutableSections.count &&
                       destinationIndexPath.section < self.mutableSections.count);
-    
+#warning 跨section移动时，会崩溃.
     if (sourceIndexPath.section >= self.mutableSections.count ||
         destinationIndexPath.section >= self.mutableSections.count) {
         return;

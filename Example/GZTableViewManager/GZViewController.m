@@ -11,6 +11,7 @@
 #import <GZTableViewOptionsController.h>
 #import "GZFormsViewController.h"
 #import "GZIndexesViewController.h"
+#import "GZEditingViewController.h"
 
 @interface GZViewController ()
 
@@ -57,6 +58,20 @@
             [item deselectRowWithAnimated:YES];
             
             GZIndexesViewController *vc = [[GZIndexesViewController alloc] init];
+            [weakSelf.navigationController pushViewController:vc animated:YES];
+        };
+        
+        [section addItem:item];
+    }
+    
+    {
+        GZTableViewItem *item = @"Editing".tableViewItem;
+        
+        item.selectionHandler = ^(GZTableViewItem *item) {
+            
+            [item deselectRowWithAnimated:YES];
+            
+            GZEditingViewController *vc = [[GZEditingViewController alloc] init];
             [weakSelf.navigationController pushViewController:vc animated:YES];
         };
         

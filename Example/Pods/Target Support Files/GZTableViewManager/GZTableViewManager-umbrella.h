@@ -24,6 +24,7 @@
 #import "GZTableViewTextCell.h"
 #import "NSString+GZNumberFormat.h"
 #import "NSString+GZTableViewItem.h"
+#import "GZTableViewCell+Private.h"
 #import "GZTableViewCell.h"
 #import "GZTableViewItem.h"
 #import "GZTableViewManager.h"
