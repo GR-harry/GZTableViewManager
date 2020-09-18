@@ -25,7 +25,7 @@ GZTableViewManager 是用于tableView管理的数据类
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'GuoRui' => 'xyt_gr@126.com' }
-  s.source           = { :git => 'git@github.com:GR-harry/GZTableViewManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GR-harry/GZTableViewManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
