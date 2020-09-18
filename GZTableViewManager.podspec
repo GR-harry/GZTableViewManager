@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 GZTableViewManager 是用于tableView管理的数据类
                        DESC
 
-  s.homepage         = 'https://gitee.com/grxm/GZTableViewManager'
+  s.homepage         = 'https://github.com/GR-harry/GZTableViewManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'GuoRui' => 'guorui@huami.com' }
-  s.source           = { :git => 'git@gitee.com:grxm/GZTableViewManager.git', :tag => s.version.to_s }
+  s.author           = { 'GuoRui' => 'xyt_gr@126.com' }
+  s.source           = { :git => 'git@github.com:GR-harry/GZTableViewManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
